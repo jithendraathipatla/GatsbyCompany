@@ -54,7 +54,7 @@ const Kewlaunch = () => {
             <HeroComponent img={Background} quote1="Newly Launched Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-             {state.length === 0 ?  Loading() : displayingupcoming()}
+             {state.length === 0 ?  Loading() : displayingNewLaunch()}
            </div>
            <div>
            Here form component will come

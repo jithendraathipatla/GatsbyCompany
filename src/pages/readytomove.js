@@ -54,7 +54,7 @@ const Readytomove = () => {
             <HeroComponent img={Background} quote1="Readyto Move_In Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-            {state.length === 0 ?  Loading() : displayingupcoming()}
+            {state.length === 0 ?  Loading() : ReadytoMoveDisplay()}
            </div>
            <div>
            Here form component will come
