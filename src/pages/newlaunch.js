@@ -14,7 +14,7 @@ const Kewlaunch = () => {
        setstate(NewLaunchedAbcd);
     }, [state]);
 
-    const displayingupcoming = () =>{
+    const displayingNewLaunch = () =>{
         return (state.map((item,i)=>{
             return(
                 <div key={i} className="card">
@@ -43,7 +43,7 @@ const Kewlaunch = () => {
             <HeroComponent img={Background} quote1="Newly Launched Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-           
+             {displayingNewLaunch()}
            </div>
            <div>
            Here form component will come
