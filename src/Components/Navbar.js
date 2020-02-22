@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { css } from "@emotion/core"
 import { FaAlignRight } from "react-icons/fa"
-import Logo from "../images/Logo.png"
+import Logo from "../images/logonew.png"
 import { Link } from "gatsby"
 
 const Navbar = () => {
