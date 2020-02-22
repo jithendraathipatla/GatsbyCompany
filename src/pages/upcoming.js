@@ -6,6 +6,7 @@ import NavBarAbc from '../Components/Navbar';
 import Footerabc from '../Components/Foooter';
 import DataAbc from "../Upcomingdata";
 import {Link} from 'gatsby';
+import {css} from '@emotion/core';
 import {FaLocationArrow, FaBed} from 'react-icons/fa';
 
 
@@ -20,7 +21,7 @@ const Upcoming = () => {
             return(
                 <div key={i} className="card">
                 <div className="card-image image-container">
-                <Link to={`/upcoming/${item.redirect}`}><img src={item.image_icon} alt="Placeholder image" /></Link>
+                <Link to={`/upcoming/${item.redirect}`}><img src={item.image_icon} alt="Placeholder image"/></Link>
               </div>
               <div className="card-content in-upcoming">
                <span>{item.name}</span>
@@ -32,12 +33,19 @@ const Upcoming = () => {
               <br/>
               <div className="upcoming-buttons">
               <Link to={`/upcoming/${item.redirect}`}><button className="button is-small">more</button></Link>
-               
               </div>
              </div>
               </div>
             )
         }))
+    }
+
+    const Loading = () => {
+        return (
+            <div css={stylingLoading}>
+              Loading....
+            </div>
+        )
     }
     return (
         <div>
@@ -45,7 +53,7 @@ const Upcoming = () => {
             <HeroComponent img={Background} quote1="Upcoming Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-           {displayingupcoming()}
+           {state.length === 0 ?  Loading() : displayingupcoming()}
            </div>
            <div>
            Here form component will come
@@ -58,3 +66,9 @@ const Upcoming = () => {
 
 export default Upcoming;
 
+
+const stylingLoading = css`
+   text-align:center;
+   padding:100px;
+   font-size:1.5rem;
+`

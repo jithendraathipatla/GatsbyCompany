@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react';
 import  NavBarAbc from '../Components/Navbar';
 import Footerabc from '../Components/Foooter';
 import '../GlobalStyle/main.css';
+import {css} from '@emotion/core'
 import {Link} from 'gatsby';
 import Background from '../images/details-4.jpeg';
 import HeroComponent from '../Components/Hero';
@@ -38,13 +39,22 @@ const Readytomove = () => {
             )
         }))
     }
+
+    const Loading = () => {
+        return (
+            <div css={stylingLoading}>
+              Loading....
+            </div>
+        )
+    }
+
     return (
         <div>
             <NavBarAbc/>
             <HeroComponent img={Background} quote1="Readyto Move_In Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-             {ReadytoMoveDisplay()}
+            {state.length === 0 ?  Loading() : displayingupcoming()}
            </div>
            <div>
            Here form component will come
@@ -57,3 +67,8 @@ const Readytomove = () => {
 
 export default Readytomove;
 
+const stylingLoading = css`
+   text-align:center;
+   padding:100px;
+   font-size:1.5rem;
+`

@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import '../GlobalStyle/main.css';
 import NavBarAbc from '../Components/Navbar';
 import Footerabc from '../Components/Foooter';
+import {css} from '@emotion/core';
 import {Link} from 'gatsby';
 import Background from '../images/details-3.jpeg';
 import HeroComponent from '../Components/Hero';
@@ -37,13 +38,23 @@ const Kewlaunch = () => {
             )
         }))
     }
+
+    const Loading = () => {
+        return (
+            <div css={stylingLoading}>
+              Loading....
+            </div>
+        )
+    }
+
+
     return (
         <div>
             <NavBarAbc/>
             <HeroComponent img={Background} quote1="Newly Launched Projects In" quote2="Bangalore"/>
             <div className="Normal_grid">
             <div className="grid_system">
-             {displayingNewLaunch()}
+             {state.length === 0 ?  Loading() : displayingupcoming()}
            </div>
            <div>
            Here form component will come
@@ -56,3 +67,9 @@ const Kewlaunch = () => {
 
 export default Kewlaunch;
 
+
+const stylingLoading = css`
+   text-align:center;
+   padding:100px;
+   font-size:1.5rem;
+`
