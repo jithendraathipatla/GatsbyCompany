@@ -13,7 +13,13 @@ const PropertyAreas = () => {
       return state.map((item,i)=>{
           return(
               <div key={i} css={border}>
+                <div css={image_container}>
                 <img src={item.image_icon} alt={item.name}/>
+                 <div css={price_top}>
+                  <span>{item.startingPrice}</span>
+                  <span>Onwards</span>
+                 </div>
+                </div>
                 <div style={{textAlign:"center"}}>
                 <Link to={`./project/${item.redirect}`}><span css={propertyName}>{item.name}</span></Link>
                 </div>
@@ -84,24 +90,67 @@ const aliginingPropertyNames = css`
       width:250px;
   }
   div{
+    a{
+      text-decoration:none;
+      color:darkslategray;
+    }
     color: #4a4a4a;
     :hover{
         transform:translateY(-1px);
         cursor:pointer;
+        a{
+          text-decoration:underline;
+        }
     }
   }
 `;
 
 const propertyName = css`
  text-align:center;
- padding-top:5px;
- font-weight:500;
+ font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 7px;
+    color: orange
+ 
 `
 
 const border = css`
 box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 padding-bottom:10px;
+background:#ffff;
 span{
     display:block;
 }
+`
+
+const image_container = css`
+  position: relative;
+ 
+`;
+
+
+const price_top = css`
+position: absolute;
+top:0;
+left:0;
+background:rgba(0,0,0,0.8);
+color:#ffff;
+padding: 0.3rem .6rem .5rem;
+border-bottom-right-radius:1rem;
+font-size:.5rem;
+text-align:center;
+ span{
+   color:white;
+   :nth-child(1){
+     font-size:0.7rem;
+     font-weight:500;
+   }
+   :nth-child(2){
+    font-size:0.6rem;
+  }
+ }
+
 `
