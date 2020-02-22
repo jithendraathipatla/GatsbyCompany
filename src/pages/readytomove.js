@@ -1,17 +1,59 @@
-import React from 'react';
-import Navbarabc from '../Components/Navbar';
+import React,{useEffect, useState} from 'react';
+import  NavBarAbc from '../Components/Navbar';
 import Footerabc from '../Components/Foooter';
 import '../GlobalStyle/main.css';
+import {Link} from 'gatsby';
+import Background from '../images/details-4.jpeg';
+import HeroComponent from '../Components/Hero';
+import ReadytoMoveInData from '../ReadytoMoveData';
+import {FaLocationArrow, FaBed} from 'react-icons/fa';
 
-const readytomove = () => {
+
+const Readytomove = () => {
+    const [state, setstate] = useState([]);
+    useEffect(() => {
+       setstate(ReadytoMoveInData);
+    }, [state]);
+
+    const ReadytoMoveDisplay = () =>{
+        return (state.map((item,i)=>{
+            return(
+                <div key={i} className="card">
+                <div className="card-image image-container">
+                <Link to={`/upcoming/${item.redirect}`}><img src={item.image_icon} alt="Placeholder image"/></Link>
+              </div>
+              <div className="card-content in-upcoming">
+               <span>{item.name}</span>
+              <FaLocationArrow className="upcoming-icon"/>
+              <time datetime="2016-1-1">{item.location}</time>
+              <br/>
+              <FaBed className="upcoming-icon"/>
+              <time datetime="2016-1-1">1,2 and 3 BHK's</time>
+              <br/>
+              <div className="upcoming-buttons">
+              <Link to={`/upcoming/${item.redirect}`}><button className="button is-small">more</button></Link>
+              </div>
+             </div>
+              </div>
+            )
+        }))
+    }
     return (
         <div>
-            <Navbarabc/>
-            <h1>I am from the ready to move</h1>
+            <NavBarAbc/>
+            <HeroComponent img={Background} quote1="Readyto Move_In Projects In" quote2="Bangalore"/>
+            <div className="Normal_grid">
+            <div className="grid_system">
+             {ReadytoMoveDisplay()}
+           </div>
+           <div>
+           Here form component will come
+           </div>
+           </div>
             <Footerabc/>
         </div>
     );
 };
 
-export default readytomove;
+export default Readytomove;
 
