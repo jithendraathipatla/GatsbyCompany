@@ -11,7 +11,7 @@ export default () => {
     return(
         <div>
          <Navbarabc/>
-          <HeroComponent img={mainImage} quote1="One stop Destination for your Dream Home" quote2="Home"/>
+          <HeroComponent img={mainImage} quote1="One stop Destination for your Home" quote2="Home"/>
           <PropertybydifferentStates/>
           <br/>
           <Services/>
