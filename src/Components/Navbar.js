@@ -68,9 +68,9 @@ const navbar = css`
 `
 const nav_center = css`
 @media screen and (min-width: 768px) {
-    max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 20px;
     display: flex;
+    justify-content:space-between;
 }
 `;
 
@@ -99,7 +99,6 @@ const nav_links = css`
   overflow: hidden;
   transition:all 0.3s linear;
   list-style-type: none;
-  padding:0px 40px;
   a {
     display: block;
     text-decoration: none;
@@ -120,7 +119,6 @@ const nav_links = css`
   @media(min-width: 768px) {
     height: auto;
       display: flex;
-      margin-left: 4rem;
       a{
       margin: 0 1.3rem;
       color: #2e7d32;
@@ -129,7 +127,3 @@ const nav_links = css`
   }
 
 `;
-
-const show_nav = css`
-    height: 270px;
-`

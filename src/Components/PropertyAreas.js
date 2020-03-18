@@ -21,7 +21,7 @@ const PropertyAreas = () => {
                  </div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                <Link to={`./project/${item.redirect}`}><span css={propertyName}>{item.name}</span></Link>
+                <Link to={`./featured/${item.redirect}`}><span css={propertyName}>{item.name}</span></Link>
                 </div>
               </div>
 

@@ -25,10 +25,10 @@ const Kewlaunch = () => {
               <div className="card-content in-upcoming">
                <span>{item.name}</span>
               <FaLocationArrow className="upcoming-icon"/>
-              <time datetime="2016-1-1">{item.location}</time>
+              <time dateTime="2016-1-1">{item.location}</time>
               <br/>
               <FaBed className="upcoming-icon"/>
-              <time datetime="2016-1-1">1,2 and 3 BHK's</time>
+              <time dateTime="2016-1-1">1,2 and 3 BHK's</time>
               <br/>
               <div className="upcoming-buttons">
               <Link to={`/upcoming/${item.redirect}`}><button className="button is-small">more</button></Link>

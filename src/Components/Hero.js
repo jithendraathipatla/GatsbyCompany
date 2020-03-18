@@ -25,6 +25,7 @@ img{
 width:100%;
 height:70vh;
 position:relative; 
+align-items:center;
 }
 `
 const banner = css`

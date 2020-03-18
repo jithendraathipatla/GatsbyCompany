@@ -1,7 +1,7 @@
 import React from 'react';
 import {css} from '@emotion/core';
 import Titleabc from '../Components/Title';
-import {Link} from 'gatsby';
+import {Link} from 'gatsby'
 import {
     FaFacebook,
     FaInstagram,
@@ -57,6 +57,7 @@ const footerabc = css`
    grid-gap:10px 30px;
    font-size:1.1rem;
    color:#000000;
+   margin-bottom:10px;
    div{
        text-align:justify;
    }  
