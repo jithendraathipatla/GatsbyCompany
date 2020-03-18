@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import ProjectType from "../Images/Aminities/house.svg";
-import TotalLandArea from "../Images/Aminities/mountain.svg";
-import TotalUnits from "../Images/Aminities/castle.svg";
-import NumberOfFloors from "../Images/Aminities/binary-code.svg";
-import TotalTowers from "../Images/Aminities/cityscape.svg";
-import UnitVarients from "../Images/Aminities/towel.svg";
-import PossessionDate from "../Images/Aminities/calendar.svg";
-import Location from "../Images/Aminities/location.svg";
+import ProjectType from "../images/Aminities/house.svg";
+import TotalLandArea from "../images/Aminities/mountain.svg";
+import TotalUnits from "../images/Aminities/castle.svg";
+import NumberOfFloors from "../images/Aminities/binary-code.svg";
+import TotalTowers from "../images/Aminities/cityscape.svg";
+import UnitVarients from "../images/Aminities/towel.svg";
+import PossessionDate from "../images/Aminities/calendar.svg";
+import Location from "../images/Aminities/location.svg";
 import Title from "./Title"
 import { css } from "@emotion/core"
 
