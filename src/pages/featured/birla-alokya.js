@@ -32,7 +32,7 @@ const BirlaAlokya = () => {
     })
 
     const mainImage = dataweneed.map((item)=>{
-        return item.image_icon;
+        return item.mainBanner;
     })
 
     const locationdata = dataweneed.map((item)=>{
