@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../GlobalStyle/main.css';
 import HeroComponent from '../../Components/Hero';
 import Layoutcomponent from '../../Components/Layout';
 import FeaturedPropertyData from '../../data';
@@ -16,7 +17,7 @@ const BirlaAlokya = () => {
         return item.redirect === "birla-alokya"
     });
 
-    console.log(dataweneed);
+ 
 
     const overviewdata = dataweneed.map((item)=>{
         return {"area":item.landarea, "units": item.numberofunits, "floors": item.startingPrice, "towers": item.totalblocks, "var": item.unitvarients, "poss":item.possession, "loc":item.location}

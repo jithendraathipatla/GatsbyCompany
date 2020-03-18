@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroComponent from '../../Components/Hero';
+import '../../GlobalStyle/main.css';
 import Layoutcomponent from '../../Components/Layout';
 import FeaturedPropertyData from '../../data';
 import OverviewComonent from '../../Components/overview';
@@ -16,7 +17,7 @@ const Assertzmarq = () => {
         return item.redirect === "concorde-auriga"
     });
 
-    console.log(dataweneed);
+ 
 
     const overviewdata = dataweneed.map((item)=>{
         return {"area":item.landarea, "units": item.numberofunits, "floors": item.startingPrice, "towers": item.totalblocks, "var": item.unitvarients, "poss":item.possession, "loc":item.location}
