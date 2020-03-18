@@ -42,7 +42,7 @@ const Assertzmarq = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Assertz Marq 2.0 "/>
+        <HeroComponent img={mainImage} quote1="Assetz Marq 2.0 "/>
             <br/>
            <OverviewComonent project="Marq 2.0 Overview" data={overviewdata}/>
            <hr/>
