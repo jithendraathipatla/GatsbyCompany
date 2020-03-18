@@ -5,14 +5,35 @@ import BangaloreData from '../data';
 import {Link} from 'gatsby';
 
 const PropertyAreas = () => {
-    const [state, setState] = useState([]);
+    const [state, setState] = useState(BangaloreData);
+    const [city, setcity] = useState("Bangalore");
     useEffect(() => {
-       setState(BangaloreData);
     }, [state]);
+
+    const handelBangalore = () => {
+      setcity("Bangalore")
+      setState(BangaloreData);
+    }
+
+    const handelChennai = () => {
+      setcity("Chennai")
+      setState([])
+    }
+
+    const handelHyderabad = () => {
+      setcity("Hyderabad")
+      setState([])
+    }
+
+    const handelMumbai = () => {
+      setcity("Mumbai")
+      setState([])
+    }
+
     const displayingData = () => {
       return state.map((item,i)=>{
           return(
-              <div key={i} css={border}>
+             <div key={i} css={border}>
                 <div css={image_container}>
                 <img src={item.image_icon} alt={item.name}/>
                  <div css={price_top}>
@@ -28,22 +49,31 @@ const PropertyAreas = () => {
           )
       })    
     }
+
+    const ComingSoon = () => {
+      return (
+        <div css={coming}>
+           <h1>Coming Soon</h1>
+        </div>
+      )
+    }
     return (
+        console.log(state),
         <div css={someimportant}>
          <div css={position}>
          <Title title="New Properties by Areas"/>
          <div css={secondimportant}>
-         <span>Bangalore</span>
-         <span>Chennai</span>
-         <span>Mumbai</span>
-         <span>Hyderabad</span>
+         <span onClick={handelBangalore}>Bangalore</span>
+         <span onClick={handelChennai}>Chennai</span>
+         <span onClick={handelMumbai}>Mumbai</span>
+         <span onClick={handelHyderabad}>Hyderabad</span>
          </div>
          </div>
          <div>
           <div sytle={{textAlign:"center"}}>
-          <Title title="Properties"/>
+          <Title title={`Properties in ${city}`}/>
           </div>
-           <div css={aliginingPropertyNames}>{displayingData()}</div>      
+           <div css={aliginingPropertyNames}>{state.length === 0 ? ComingSoon() : displayingData()}</div>      
          </div>      
         </div>
     );
@@ -51,6 +81,15 @@ const PropertyAreas = () => {
 
 export default PropertyAreas;
 
+
+const coming = css`
+ text-align:center;
+ h1{
+   font-size:24px;
+   color:red;
+   font-weight:800px;
+ }
+`
 
 const someimportant = css`
  display:grid;
