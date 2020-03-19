@@ -1,5 +1,4 @@
 import React from 'react';
-import TitleComponent from '../Components/Title';
 import FormComponent from '../Components/Form';
 import { withStyles } from '@material-ui/core/styles';
 import Dialog from '@material-ui/core/Dialog';
@@ -67,7 +66,7 @@ export default function CustomizedDialogs(props) {
       </a>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-         <TitleComponent title={props.project}/>
+         {props.project}
         </DialogTitle>
         <DialogContent dividers>
            <FormComponent project_name={props.project} link={props.link}/>

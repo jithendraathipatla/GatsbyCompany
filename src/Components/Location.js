@@ -3,23 +3,40 @@ import Mainlogo from "../images/logonew.png";
 import { css } from "@emotion/core"
 import TitleComponent from "../Components/Title"
 import FormComponent from '../Components/Form'
+import ComingSoonImage from '../images/Coming-Soon-Project-.jpg';
 
 
 const Location = (props) => {
+  const displaymap = () => {
+    return(
+      <div> <iframe
+      src={props.data}
+      width="100%"
+      height="460"
+      frameBorder="0"
+      tabIndex="0"
+      title={props.project}
+    ></iframe></div>
+     
+    )
+  }
+
+  const comings = () => {
+    return(
+      <div css={replacemap}>
+      <img src={ComingSoonImage} alt="coming soon"/>      
+      </div>
+    )
+  }
+
+
   return (
     <div css={main}>
     <div css={map}>
       <div style={{textAlign: "center"}}>
         <TitleComponent title={props.project}/>
       </div>
-        <iframe
-          src={props.data}
-          width="100%"
-          height="460"
-          frameBorder="0"
-          tabIndex="0"
-          title={props.project}
-        ></iframe>
+        {props.data == "nodata" ? comings() :  displaymap()}
       </div>
       <div css={two}>
       <div style={{textAlign: "center"}}>
@@ -59,6 +76,11 @@ const form = css`
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
   padding: 10px;
   height:438px;
+`
+
+const replacemap = css`
+ text-align:center;
+ margin-top:50px;
 `
 
 export default Location;

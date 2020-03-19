@@ -16,6 +16,20 @@ hr{
   width: 400px;
 }
 
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  text-align: center;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: black;
+}
+
 .Normal_grid{
     display: grid;
     grid-template-columns: 7fr 5fr;
@@ -245,13 +259,13 @@ hr{
       height: 100%;
       padding:70px 20px 30px 20px;
   }
-  .upcoming-buttons button{
-      margin: 10px 22px 0px 22px;
-  }
+ 
   .upcoming-buttons {
      border-top: 1px solid #eee;
      margin-top: 10px;
+     padding-top:10px;
      display: flex;
+     justify-content: space-between;
   }
   .upcoming-icon{
     box-shadow: rgba(0, 0, 0, 0.8) 1px 2px 2px;
@@ -262,10 +276,23 @@ hr{
   }
   
   .button.is-small{
-    color:white;
+    color: #fff;
+    border:1px solid #eeee;
     background: #9c27b0;
     border-color: #9c27b0;
+    cursor: pointer;
+    justify-content: center;
+    background-size: 400% 400%;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding:6px 15px;
+    text-align: center;
+    white-space: nowrap;
   }
+
+  .button.is-small:hover{
+    text-decoration: underline;
+  }
+
   .button.is-link.is-light{
     color:white !important;
     background: #9c27b0 !important;

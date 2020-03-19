@@ -12,7 +12,7 @@ const titleabc = css`
   font-size: 1.2rem;
   font-weight: 530;
   color: #2e7d32;
-  margin: 20px;
+  margin: 20px 0px;
   text-decoration: underline;
   text-transform: uppercase;
   text-underline-position: under;

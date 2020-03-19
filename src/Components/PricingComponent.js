@@ -48,6 +48,9 @@ const ConfigurationComponent = (props) => {
     padding:2px;
     text-align: center;
     white-space: nowrap;
+    :hover{
+      text-decoration:underline;
+    }
     `
 
     const main = css`
