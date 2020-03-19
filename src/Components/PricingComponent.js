@@ -1,6 +1,7 @@
 import React from 'react';
 import {css} from '@emotion/core';
 import TitleComponent from '../Components/Title';
+import ModalComponent from '../Components/Modal';
     
 const ConfigurationComponent = (props) => {
         const dataweneed = props.data.map((item)=>{
@@ -14,7 +15,7 @@ const ConfigurationComponent = (props) => {
                           <span>{item.bed}</span>
                            <span>{item.feet} in SQ.Ft</span>
                            <span>{item.money}</span>
-                           <span>KNOW MORE</span>
+                           <span><ModalComponent project={props.project} size={small} title="Know More"/></span>
                         </div>
                     )
                 })
@@ -36,7 +37,19 @@ const ConfigurationComponent = (props) => {
         );
     };
     
-    
+    const small = css`
+    color: #fff;
+    background: #9c27b0;
+    border-color: #9c27b0;
+    cursor: pointer;
+    justify-content: center;
+    background-size: 400% 400%;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding:2px;
+    text-align: center;
+    white-space: nowrap;
+    `
+
     const main = css`
       display:block;
       text-align:center;
@@ -76,5 +89,6 @@ const ConfigurationComponent = (props) => {
     const main_two = css`
       display:block;
     `
+
 export default ConfigurationComponent;
    

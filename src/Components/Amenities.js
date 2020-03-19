@@ -122,11 +122,9 @@ const Amenities_main = css`
   padding: 20px 2px 20px 50px;
   margin-bottom:30px;
   img{
-    border: 1px solid #eeee;
+    border: 1px solid;
     padding: 10px;
     border-radius: 15%;
-    background: linear-gradient(to bottom, #ff00000f, #ffff002e);
-    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.3);
   }
   @media(max-width:600px){
     grid-template-columns:3fr 3fr;

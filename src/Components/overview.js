@@ -119,10 +119,9 @@ const overview_main = css`
   margin-bottom:30px;
   padding: 10px 30px 10px 10px;
   img {
-    box-shadow:0px 0px 1px 2px rgba(0,0,0,0.5);
     padding: 10px;
     border-radius: 15%;
-    background: linear-gradient(to bottom, #ff00000f, #ffff002e);
+    border:1px solid;
   }
   @media(max-width:600px){
     display:block;
@@ -130,8 +129,7 @@ const overview_main = css`
 `
 
 const properly = css`
-  display: flex;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.09);
+    display: flex;
     border-radius: 5px;
     padding: 10px 20px;
   @media(max-width:600px){

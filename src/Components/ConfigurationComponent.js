@@ -12,7 +12,7 @@ const ConfigurationComponent = (props) => {
                 return (
                     <div key={i} css={tabelbody}>
                       <span>{item.bed}</span>
-                       <span>{item.feet}</span>
+                       <span>{item.feet} in Sq.Ft</span>
                     </div>
                 )
             })
