@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const RollingHills = () => {
     const dataweneed = UpcomingPropertyData.filter((item)=>{
-        return item.redirect === "pride-rolling-hills-phase-II"
+        return item.redirect === "puravankara-sammys-dreamland"
     });
 
  
@@ -42,17 +42,17 @@ const RollingHills = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Pride Rolling Hills Phase II"/>
+        <HeroComponent img={mainImage} quote1="Puravankara Sammys Dreamland "/>
             <br/>
-           <OverviewComonent project="Rolling Hills Phase II Overview" data={overviewdata}/>
+           <OverviewComonent project="Sammys Dreamland Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Rolling Hills Phase II Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Sammys Dreamland Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Rolling Hills Phase II Amenities"/>
+           <AmenitiesComponent project="Sammys Dreamland Amenities"/>
            <hr/>
-           <PricingComponent project="Rolling Hills Phase II Pricing" data={pricingdata}/>
+           <PricingComponent project="Sammys Dreamland Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Rolling Hills Phase II Location" data={locationdata}/>
+           <LocationComponent project="Sammys Dreamland Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

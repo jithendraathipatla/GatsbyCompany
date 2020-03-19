@@ -59,15 +59,12 @@ const Upcoming = (props) => {
             <div css={main}>
             <div>
             <div style={{textAlign:"center"}}>
-            <Title title="Upcoming Properties"/>
+            <Title title="Upcoming Properties in Bangalore"/>
             </div>
             <div css={grids}>
            {state.length === 0 ?  Loading() : displayingupcoming()}
            </div>
             </div>
-           <div>
-           Here form component will come
-           </div>
            </div>
             <Footerabc/>
         </div>
@@ -95,14 +92,13 @@ white-space: nowrap;
 
 
 const main = css`
-  display:grid;
-  grid-template-columns:6fr 6fr;
+  display:block;
   margin:10px;
 `
 
 const grids = css`
   display:grid;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
   grid-gap:20px;
 `
 

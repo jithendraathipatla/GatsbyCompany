@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const RollingHills = () => {
     const dataweneed = UpcomingPropertyData.filter((item)=>{
-        return item.redirect === "pride-rolling-hills-phase-II"
+        return item.redirect === "ozone-budigere-cross"
     });
 
  
@@ -42,17 +42,17 @@ const RollingHills = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Pride Rolling Hills Phase II"/>
+        <HeroComponent img={mainImage} quote1="Ozone Budigere Cross"/>
             <br/>
-           <OverviewComonent project="Rolling Hills Phase II Overview" data={overviewdata}/>
+           <OverviewComonent project="Ozone Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Rolling Hills Phase II Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Ozone Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Rolling Hills Phase II Amenities"/>
+           <AmenitiesComponent project="Ozone Amenities"/>
            <hr/>
-           <PricingComponent project="Rolling Hills Phase II Pricing" data={pricingdata}/>
+           <PricingComponent project="Ozone Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Rolling Hills Phase II Location" data={locationdata}/>
+           <LocationComponent project="Ozone Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

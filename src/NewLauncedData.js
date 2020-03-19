@@ -1087,7 +1087,7 @@ export default [
       {
         name: "Assetz Marq 2.0",
         image_icon: assetzmarq,
-        redirect:'assertz-marq-2.0',
+        redirect:'assetz-marq-2.0',
         filter:"assertz marq 2.0",
         filter_location:"whitefield",
         area: [{bed:"2 BHK", feet: "1125 -1162"}, {bed:"3 BHK", feet:"1373 - 1668"}, {bed:"4 BHK", feet: "1864"}],

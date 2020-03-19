@@ -12,9 +12,9 @@ import LocationComponent from '../../Components/Location';
 
 
 
-const RollingHills = () => {
+const Atmosphere = () => {
     const dataweneed = UpcomingPropertyData.filter((item)=>{
-        return item.redirect === "pride-rolling-hills-phase-II"
+        return item.redirect === "purva-atmosphere"
     });
 
  
@@ -42,19 +42,19 @@ const RollingHills = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Pride Rolling Hills Phase II"/>
+        <HeroComponent img={mainImage} quote1="Purva Atmosphere"/>
             <br/>
-           <OverviewComonent project="Rolling Hills Phase II Overview" data={overviewdata}/>
+           <OverviewComonent project="Atmosphere Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Rolling Hills Phase II Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Atmosphere Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Rolling Hills Phase II Amenities"/>
+           <AmenitiesComponent project="Atmosphere Amenities"/>
            <hr/>
-           <PricingComponent project="Rolling Hills Phase II Pricing" data={pricingdata}/>
+           <PricingComponent project="Atmosphere Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Rolling Hills Phase II Location" data={locationdata}/>
+           <LocationComponent project="Atmosphere Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };
 
-export default RollingHills;
+export default Atmosphere;
