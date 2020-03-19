@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = NewlaunchPropertyData.filter((item)=>{
-        return item.redirect === "salarpura-sattva-exotic"
+        return item.redirect === "salarpuria-sattva-exotic"
     });
 
  

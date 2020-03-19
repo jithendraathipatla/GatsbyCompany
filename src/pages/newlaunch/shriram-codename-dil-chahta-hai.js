@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = NewlaunchPropertyData.filter((item)=>{
-        return item.redirect === "shriram-codename-dil-chahata-hai"
+        return item.redirect === "shriram-codename-dil-chahta-hai"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Shriram Dil Chahata Hai"/>
+        <HeroComponent img={mainImage} quote1="Shriram Dil chahta Hai"/>
             <br/>
-           <OverviewComonent project="Dil Chahata Hai Overview" data={overviewdata}/>
+           <OverviewComonent project="Dil chahta Hai Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Dil Chahata Hai Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Dil chahta Hai Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Dil Chahata Hai Amenities"/>
+           <AmenitiesComponent project="Dil chahta Hai Amenities"/>
            <hr/>
-           <PricingComponent project="Dil Chahata Hai Pricing" data={pricingdata}/>
+           <PricingComponent project="Dil chahta Hai Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Dil Chahata Hai Location" data={locationdata}/>
+           <LocationComponent project="Dil chahta Hai Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };
