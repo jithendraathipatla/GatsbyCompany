@@ -84,7 +84,7 @@ export default [
       },
       {
         name: "Shriram RainForest",
-        redirect:"shriram-rainForest",
+        redirect:"shriram-rainforest",
         filter:"shriram rainForest",
         filter_location:"devanahalli",
         area: [{bed:"297 Plots", feet: "297 Plots"}],
@@ -349,11 +349,11 @@ export default [
         location:"Devanahalli",
         landarea:"32 Acres",
         numberofunits:"447 Units",
-        totalblocks:null,
+        totalblocks:"NA",
         unitvarients: "Variety Plots",
         possession:"2021",
         startingPrice:"Rs. 25 Lakh Onwards",
-        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.9613744858484!2d77.72000401413894!3d13.352677910016025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e599eb829d23%3A0x9be331f40307a4f8!2sSAMMY&#39;S%20DREAMLAND%20PALM%20HILLS!5e0!3m2!1sen!2sin!4v1574344993333!5m2!1sen!2sin",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62139.847168248416!2d77.66826450689865!3d13.241598513774294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1d7e5be61355%3A0x4d0ebbef9dd94431!2sSammy&#39;s%20palm%20hills!5e0!3m2!1sen!2sin!4v1584612383628!5m2!1sen!2sin",
       },
       {
         name: "Provident ParkWoods",
@@ -477,7 +477,7 @@ export default [
       {
         name: "Shriram Codename BreakFree",
         image_icon: shriramcodenamebreakFree,
-        redirect:'shriram-codename-breakFree',
+        redirect:'shriram-codename-breakfree',
         filter:'shriram codename breakFree',
         filter_location:"electronic city",
         area: [{bed:"2 BHK", feet: "850 -890"}, {bed:"3 BHK", feet:"950 - 1050"}],
@@ -1104,7 +1104,7 @@ export default [
       {
         name: "Prestige Jindal City",
         image_icon: jindalcity,
-        redirect:'prestige-jindalcity',
+        redirect:'prestige-jindal-city',
         filter:"prestige-jindalcity",
         filter_location:"tumukur",
         area: [{bed:"2 BHK", feet: "1125 -1162"}, {bed:"3 BHK", feet:"1373 - 1668"}, {bed:"4 BHK", feet: "1864"}],

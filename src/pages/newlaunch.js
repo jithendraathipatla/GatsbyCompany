@@ -31,7 +31,7 @@ const Kewlaunch = () => {
               <time dateTime="2016-1-1">1,2 and 3 BHK's</time>
               <br/>
               <div className="upcoming-buttons">
-              <Link to={`/upcoming/${item.redirect}`}><button className="button is-small">more</button></Link>
+              <Link to={`/newlaunch/${item.redirect}`}><button className="button is-small">more</button></Link>
               </div>
              </div>
               </div>
