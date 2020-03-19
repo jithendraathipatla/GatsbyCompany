@@ -47,7 +47,7 @@ const main_one = css`
       text-align:center;
       background:green;
       color:white;
-      padding:5px;
+      padding:10px;
       border:2px solid #242424;
   }
 `
@@ -65,7 +65,7 @@ const tabelbody= css`
     flex:6;
     text-align:center;
     color:black;
-    padding:5px;
+    padding:7px;
     border:1px solid #242424;
   }
 `

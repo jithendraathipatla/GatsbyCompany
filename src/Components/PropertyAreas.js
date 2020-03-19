@@ -152,7 +152,7 @@ const propertyName = css`
     padding-bottom: 5px;
     text-align: center;
     padding-top: 7px;
-    color: orange
+    color: #9c27b0
  
 `
 
