@@ -93,7 +93,7 @@ white-space: nowrap;
 
 const main = css`
   display:block;
-  margin:10px;
+  margin:20px 60px;
 `
 
 const grids = css`

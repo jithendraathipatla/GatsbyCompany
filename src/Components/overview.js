@@ -114,14 +114,16 @@ const media_main= css`
 const overview_main = css`
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-gap: 40px 20px;
+  grid-gap: 20px;
   margin-left: 30px;
   margin-bottom:30px;
   padding: 10px 30px 10px 10px;
   img {
+    border: 1px solid #ffff;
     padding: 10px;
-    border-radius: 15%;
-    border:1px solid;
+    border-radius: 5%;
+    color: blueviolet !important;
+    box-shadow: 0px 0px 9px 1px rgba(208, 82, 210, 0.49);
   }
   @media(max-width:600px){
     display:block;

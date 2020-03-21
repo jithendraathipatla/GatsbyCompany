@@ -46,7 +46,7 @@ hr{
 
 .card img{
     height:200px; 
-    width:317.5px;
+    width:294px;
 }
 
 .icon_before{
@@ -98,7 +98,7 @@ hr{
 
 .loader:after{
     content: '';
-    position: absolute;
+    position: relative;
     top:10px;
     left: 10px;
     right: 10px;
@@ -154,13 +154,17 @@ hr{
 }
 
 .image-container1 .card{
-    margin-top: 180px;
-    width: 170%;
+  margin-top: 180px;
+  width: 95%;
+  background: white;
+  padding: 11px;
 }
 
 .image-container2 .card{
-    margin-top: 180px;
-    width: 170%;
+  margin-top: 180px;
+  width: 95%;
+  background: white;
+  padding: 11px;
 }
 
 

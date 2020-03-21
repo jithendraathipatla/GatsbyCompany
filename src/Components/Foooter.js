@@ -51,9 +51,9 @@ export default Foooter;
 
 const footerabc = css`
   border-top:2px solid #eeee;
-   padding:20px 20px 0px 20px;
+   padding:0px 20px 0px 60px;
    display:grid;
-   grid-template-columns: 5fr 2fr 3fr 3fr;
+   grid-template-columns: 5fr 2fr 3fr 2fr;
    grid-gap:10px 30px;
    font-size:1.1rem;
    color:#000000;

@@ -118,13 +118,15 @@ const Amenities = (props) => {
 const Amenities_main = css`
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr;
-  grid-gap: 30px 80px;
-  padding: 20px 2px 20px 50px;
+  grid-gap: 20px 60px;
+  padding: 20px 2px 20px 60px;
   margin-bottom:30px;
   img{
-    border: 1px solid;
+    border: 1px solid #ffff;
     padding: 10px;
-    border-radius: 15%;
+    border-radius: 5%;
+    color: blueviolet !important;
+    box-shadow: 0px 0px 9px 1px rgba(208, 82, 210, 0.49);
   }
   @media(max-width:600px){
     grid-template-columns:3fr 3fr;

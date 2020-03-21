@@ -80,7 +80,7 @@ export default Services;
 
 
 const services = css`
-margin:20px;
+margin:20px 60px;
 display:grid;
 grid-template-columns: 3fr 3fr 3fr 3fr;
 padding-bottom:20px;

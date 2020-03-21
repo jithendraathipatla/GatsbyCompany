@@ -14,7 +14,7 @@ const team = () => {
                 <span></span>
                 <span></span>
             </div>
-            <div className="loader">
+            <div className="">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -33,7 +33,7 @@ const team = () => {
              <h2>Property Consultant at LivExcellence</h2>
             </div>
              </div>
-             <div className="image-container3">
+             <div className>
              </div>
              <div className="image-container1">
               <div className="card">
