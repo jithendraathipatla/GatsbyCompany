@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "brigade-northride"
+        return item.redirect === "phoenix-one-west"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Brigade Northride"/>
+        <HeroComponent img={mainImage} quote1="Phoenix one Bangalore West"/>
             <br/>
-           <OverviewComonent project="Northride Overview" data={overviewdata}/>
+           <OverviewComonent project="Phoenix One Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Northride Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Phoenix One Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Northride Amenities"/>
+           <AmenitiesComponent project="Phoenix One Amenities"/>
            <hr/>
-           <PricingComponent project="Northride Pricing" data={pricingdata}/>
+           <PricingComponent project="Phoenix One Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Northride Location" data={locationdata}/>
+           <LocationComponent project="Phoenix One Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

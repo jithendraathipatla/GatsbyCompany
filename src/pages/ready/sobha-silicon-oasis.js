@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "soba-silicon-oasis"
+        return item.redirect === "sobha-silicon-oasis"
     });
 
  
@@ -42,7 +42,7 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Soba Silicon Oasis"/>
+        <HeroComponent img={mainImage} quote1="Sobha Silicon Oasis"/>
             <br/>
            <OverviewComonent project="Silicon Oasis Overview" data={overviewdata}/>
            <hr/>

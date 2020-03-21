@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "nambir-bellezea"
+        return item.redirect === "nambiar-bellezea"
     });
 
  

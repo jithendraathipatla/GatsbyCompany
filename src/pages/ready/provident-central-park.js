@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "g-corp-residencies"
+        return item.redirect === "provident-central-park"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="G Corp Residencies"/>
+        <HeroComponent img={mainImage} quote1="Provident Central Park"/>
             <br/>
-           <OverviewComonent project="G Corp Residencies Overview" data={overviewdata}/>
+           <OverviewComonent project="Centeral Park Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="G Corp Residencies Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Centeral Park Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="G Corp Residencies Amenities"/>
+           <AmenitiesComponent project="Centeral Park Amenities"/>
            <hr/>
-           <PricingComponent project="G Corp Residencies Pricing" data={pricingdata}/>
+           <PricingComponent project="Centeral Park Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="G Corp Residencies Location" data={locationdata}/>
+           <LocationComponent project="Centeral Park Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

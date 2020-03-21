@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "axis-aspira"
+        return item.redirect === "hiranandani-glen-classic"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Axis Aspira"/>
+        <HeroComponent img={mainImage} quote1="Hiranandani Glen Classic"/>
             <br/>
-           <OverviewComonent project="Aspira Overview" data={overviewdata}/>
+           <OverviewComonent project="Glen Classic Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Aspira Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Glen Classic Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Aspira Amenities"/>
+           <AmenitiesComponent project="Glen Classic Amenities"/>
            <hr/>
-           <PricingComponent project="Aspira Pricing" data={pricingdata}/>
+           <PricingComponent project="Glen Classic Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Aspira Location" data={locationdata}/>
+           <LocationComponent project="Glen Classic Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

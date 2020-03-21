@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "dnn-reflection"
+        return item.redirect === "dnr-reflection"
     });
 
  
@@ -42,7 +42,7 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Dnn Reflection"/>
+        <HeroComponent img={mainImage} quote1="Dnr Reflection"/>
             <br/>
            <OverviewComonent project="Reflection Overview" data={overviewdata}/>
            <hr/>

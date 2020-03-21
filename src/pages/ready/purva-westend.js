@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "five-summit-address"
+        return item.redirect === "purva-westend"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Five Summit Address"/>
+        <HeroComponent img={mainImage} quote1="Purva Westend"/>
             <br/>
-           <OverviewComonent project="Five Summit Address Overview" data={overviewdata}/>
+           <OverviewComonent project="Westend Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Five Summit Address Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Westend Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Five Summit Address Amenities"/>
+           <AmenitiesComponent project="Westend Amenities"/>
            <hr/>
-           <PricingComponent project="Five Summit Address Pricing" data={pricingdata}/>
+           <PricingComponent project="Westend Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Five Summit Address Location" data={locationdata}/>
+           <LocationComponent project="Westend Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "pride-vilasa"
+        return item.redirect === "pride-wilasa"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Pride Vilasa"/>
+        <HeroComponent img={mainImage} quote1="Pride Wilasa"/>
             <br/>
-           <OverviewComonent project="Pride Vilasa Overview" data={overviewdata}/>
+           <OverviewComonent project="Pride Wilasa Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Pride Vilasa Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Pride Wilasa Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Pride Vilasa Amenities"/>
+           <AmenitiesComponent project="Pride Wilasa Amenities"/>
            <hr/>
-           <PricingComponent project="Pride Vilasa Pricing" data={pricingdata}/>
+           <PricingComponent project="Pride Wilasa Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Pride Vilasa Location" data={locationdata}/>
+           <LocationComponent project="Pride Wilasa Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

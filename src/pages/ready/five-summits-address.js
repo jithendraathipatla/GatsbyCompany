@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "hiranandani-gen-classic"
+        return item.redirect === "five-summits-address"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Hiranandani Gen Classic"/>
+        <HeroComponent img={mainImage} quote1="Five Summits Address"/>
             <br/>
-           <OverviewComonent project="Gen Classic Overview" data={overviewdata}/>
+           <OverviewComonent project="Five Summits Address Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Gen Classic Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Five Summits Address Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Gen Classic Amenities"/>
+           <AmenitiesComponent project="Five Summits Address Amenities"/>
            <hr/>
-           <PricingComponent project="Gen Classic Pricing" data={pricingdata}/>
+           <PricingComponent project="Five Summit Address Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Gen Classic Location" data={locationdata}/>
+           <LocationComponent project="Five Summit Address Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

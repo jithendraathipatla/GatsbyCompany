@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "century-infinity"
+        return item.redirect === "prestige-falcon-city"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Century Infinity"/>
+        <HeroComponent img={mainImage} quote1="Prestige Falcon City"/>
             <br/>
-           <OverviewComonent project="Infinity Overview" data={overviewdata}/>
+           <OverviewComonent project="Falcon City Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Infinity Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Falcon City Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Infinity Amenities"/>
+           <AmenitiesComponent project="Falcon City Amenities"/>
            <hr/>
-           <PricingComponent project="Infinity Pricing" data={pricingdata}/>
+           <PricingComponent project="Falcon City Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Infinity Location" data={locationdata}/>
+           <LocationComponent project="Falcon City Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };

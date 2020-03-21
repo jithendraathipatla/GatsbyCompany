@@ -14,7 +14,7 @@ import LocationComponent from '../../Components/Location';
 
 const Sankya = () => {
     const dataweneed = ReadyToMoveInData.filter((item)=>{
-        return item.redirect === "provident-centeral-park"
+        return item.redirect === "embassy-grove"
     });
 
  
@@ -42,17 +42,17 @@ const Sankya = () => {
 
     return (
         <Layoutcomponent>
-        <HeroComponent img={mainImage} quote1="Provident Centeral PArk"/>
+        <HeroComponent img={mainImage} quote1="Embassy Grove"/>
             <br/>
-           <OverviewComonent project="Centeral Park Overview" data={overviewdata}/>
+           <OverviewComonent project="Embassy Grove Overview" data={overviewdata}/>
            <hr/>
-           <ConfigurationComponent project="Centeral Park Configuration" data={configurationdata}/>
+           <ConfigurationComponent project="Embassy Grove Configuration" data={configurationdata}/>
            <hr/>
-           <AmenitiesComponent project="Centeral Park Amenities"/>
+           <AmenitiesComponent project="Embassy Grove Amenities"/>
            <hr/>
-           <PricingComponent project="Centeral Park Pricing" data={pricingdata}/>
+           <PricingComponent project="Embassy Grove Pricing" data={pricingdata}/>
            <hr/>
-           <LocationComponent project="Centeral Park Location" data={locationdata}/>
+           <LocationComponent project="Embassy Grove Location" data={locationdata}/>
         </Layoutcomponent>
     );
 };
