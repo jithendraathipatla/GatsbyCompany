@@ -64,7 +64,6 @@ const footerabc = css`
    @media(max-width:600px){
      display:block;
      padding:10px;
-     
    }
 `
 const useful = css`
