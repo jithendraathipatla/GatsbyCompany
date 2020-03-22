@@ -108,7 +108,7 @@ const Overview = (props) => {
 
 const media_main= css`
   @media(max-width:600px){
-    margin-top:-110px;
+    margin-top:0px;
   }
 `
 const overview_main = css`
@@ -125,8 +125,16 @@ const overview_main = css`
     color: blueviolet !important;
     box-shadow: 0px 0px 9px 1px rgba(208, 82, 210, 0.49);
   }
+  div{
+    @media(max-width:600px){
+       text-align:center;
+    }
+  }
   @media(max-width:600px){
     display:block;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:0px;
   }
 `
 

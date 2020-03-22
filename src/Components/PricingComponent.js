@@ -51,6 +51,9 @@ const ConfigurationComponent = (props) => {
     :hover{
       text-decoration:underline;
     }
+    @media(max-width:600px){
+      padding:2px;
+    }
     `
 
     const main = css`
@@ -69,6 +72,12 @@ const ConfigurationComponent = (props) => {
           color:white;
           padding:10px;
           border:2px solid #242424;
+          @media(max-width:600px){
+            padding: 4px;
+          }
+      }
+      @media(max-width:600px){
+        margin:0px 10px;
       }
     `
     const tabelbody= css`
@@ -87,6 +96,9 @@ const ConfigurationComponent = (props) => {
         color:black;
         padding:7px;
         border:1px solid #242424;
+      }
+      @media(max-width:600px){
+        margin:0px 10px;
       }
     `
     const main_two = css`

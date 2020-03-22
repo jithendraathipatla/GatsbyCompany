@@ -39,7 +39,7 @@ const Navbar = () => {
             <li onClick={closingNav}>
               <Link to="/readytomove">Ready To Move</Link>
             </li>
-            <li>
+            <li css={notdisplaying}>
               <Link to="/team" className="displaying-team">
                 Team
               </Link>
@@ -65,6 +65,24 @@ const navbar = css`
   z-index: 1;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
   background: white;
+  a{
+    @media(max-width:600px){
+      color:black;
+      text-decoration:none;
+    }
+  }
+  li a{
+    @media(max-width:600px){
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: block;
+    }
+  }
+`
+const notdisplaying = css`
+  @media(max-width:600px){
+    display:none;
+  }
 `
 const nav_center = css`
 @media screen and (min-width: 768px) {
@@ -87,6 +105,9 @@ const nav_btn = css`
   outline: none;
   @media(min-width: 768px) {
       display: none;
+  }
+  @media(max-width:600px){
+    padding-right:6px;
   }
 `;
 
@@ -125,5 +146,6 @@ const nav_links = css`
       padding: 25px 0;
       }
   }
+  
 
 `;

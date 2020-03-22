@@ -61,6 +61,11 @@ const footerabc = css`
    div{
        text-align:justify;
    }  
+   @media(max-width:600px){
+     display:block;
+     padding:10px;
+     
+   }
 `
 const useful = css`
   display:block;

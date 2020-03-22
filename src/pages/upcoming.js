@@ -100,6 +100,9 @@ const grids = css`
   display:grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   grid-gap:20px;
+  @media(max-width:600px){
+      grid-template-columns:3fr;
+  }
 `
 
 const stylingLoading = css`

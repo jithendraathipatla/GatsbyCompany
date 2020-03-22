@@ -50,6 +50,9 @@ const main_one = css`
       padding:10px;
       border:2px solid #242424;
   }
+  @media(max-width:600px){
+    margin:0px 10px;
+  }
 `
 const tabelbody= css`
   display:flex;
@@ -67,6 +70,9 @@ const tabelbody= css`
     color:black;
     padding:7px;
     border:1px solid #242424;
+  }
+  @media(max-width:600px){
+    margin:0px 10px;
   }
 `
 const main_two = css`

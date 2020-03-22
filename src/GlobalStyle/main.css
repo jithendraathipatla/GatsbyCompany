@@ -46,7 +46,7 @@ hr{
 
 .card img{
     height:200px; 
-    width:294px;
+    width:292px;
 }
 
 .icon_before{
@@ -349,6 +349,10 @@ hr{
     display: inline-flex;
     width: 100%;
    }
+   .card img {
+    height: 200px;
+    width: -webkit-fill-available;
+    }
    .upcoming_sub_form {
     height: 100%;
     padding: 8px 20px 30px 20px;

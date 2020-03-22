@@ -10,14 +10,34 @@ import Background from '../images/details-3.jpeg';
 import HeroComponent from '../Components/Hero';
 import NewLaunchedAbcd from '../NewLauncedData';
 import {FaLocationArrow, FaBed} from 'react-icons/fa';
+import InputSearchComponent from '../Components/Search';
 
 const Kewlaunch = () => {
-    const [state, setstate] = useState([]);
+
+    const [state, setstate] = useState(NewLaunchedAbcd);
+
     useEffect(() => {
-       setstate(NewLaunchedAbcd);
     }, [state]);
 
+     
+    const handelformsubmit= (e) => {
+        let finalvalue = e.target.elements.searchform.value;
+        e.preventDefault();
+        console.log(finalvalue);
+       let filteredvalue =  NewLaunchedAbcd.filter((item)=>{
+           return item.filter === finalvalue;;
+        })
+        setstate(filteredvalue);
+    }
+
+    const handelInputChange = (e) => {
+        if(e.target.value.length === 0){
+            setstate(NewLaunchedAbcd)
+        }
+    }
+
     const displayingNewLaunch = () =>{
+        console.log(state);
         return (state.map((item,i)=>{
             return(
                 <div key={i} className="card">
@@ -62,8 +82,13 @@ const Kewlaunch = () => {
             <div style={{textAlign:"center"}}>
             <Title title="New-Launch Properties in Bangalore"/>
             </div>
+            <div>
+            <div css={stickystyle}>
+            <InputSearchComponent result={handelformsubmit} change={handelInputChange}/>
+            </div>
             <div css={grids}>
            {state.length === 0 ?  Loading() : displayingNewLaunch()}
+           </div>
            </div>
             </div>
            </div>
@@ -74,6 +99,13 @@ const Kewlaunch = () => {
 
 export default Kewlaunch;
 
+const stickystyle = css`
+ position:sticky;
+ position: -webkit-sticky;
+align-self: flex-center;
+position: sticky;
+top:85px;
+`
 
 const medium = css`
 color: #fff;
@@ -95,12 +127,18 @@ white-space: nowrap;
 const main = css`
   display:block;
   margin:20px 60px;
+  @media(max-width:600px){
+  margin:20px;
+  }
 `
 
 const grids = css`
   display:grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   grid-gap:20px;
+  @media(max-width:600px){
+    grid-template-columns:3fr;
+}
 `
 
 const stylingLoading = css`

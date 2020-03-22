@@ -92,6 +92,10 @@ svg{
 .h1{
     font-size:1.1rem;
 }
+@media(max-width:600px){
+  display:block;
+  margin:10px;
+}
 `;
 
 const main= css`

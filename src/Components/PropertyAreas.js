@@ -99,6 +99,9 @@ const someimportant = css`
  :hover{
      cursor:pointer;
  }
+ @media(max-width:600px){
+   display:block;
+ }
 `
 
 const position = css`
@@ -106,16 +109,29 @@ position: -webkit-sticky;
 align-self: flex-center;
 position: sticky;
 top:100px;
+@media(max-width:600px){
+  top: 81px;
+  z-index: 100;
+  background:white;
+}
 `
 
 const secondimportant = css`
 padding:0px 10px;
 border-right:1px splid #eee;
+@media(max-width:600px){
+  display:flex;
+}
 span{
     display:block;
     text-align:center;
     padding:20px;
     border:1px solid #eeee;
+    @media(max-width:600px){
+      padding: 8px;
+      width: -webkit-fill-available;
+      margin-bottom: 10px;
+    }
 }
 `
 
@@ -127,6 +143,9 @@ const aliginingPropertyNames = css`
   img{
       height:200px;
       width:250px;
+      @media(max-width:600px){
+        width: -webkit-fill-available;
+      }
   }
   div{
     a{
@@ -141,6 +160,10 @@ const aliginingPropertyNames = css`
           text-decoration:underline;
         }
     }
+  }
+  @media(max-width:600px){
+    display: grid;
+    grid-template-columns: 3fr;
   }
 `;
 

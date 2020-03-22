@@ -62,9 +62,15 @@ const two= css`
  padding-left:0px;
  display:block;
  flex:4;
+ @media(max-width:600px){
+   padding:10px;
+ }
 `
 const main = css`
   display:flex;
+  @media(max-width:600px){
+    display:block;
+  }
 `
 
 const map = css`
