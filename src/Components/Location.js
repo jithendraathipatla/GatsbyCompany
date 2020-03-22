@@ -87,6 +87,11 @@ const form = css`
 const replacemap = css`
  text-align:center;
  margin-top:50px;
+ img{
+ @media(max-width:600px){
+   width:200px;  
+ }
+}
 `
 
 export default Location;
