@@ -4,7 +4,7 @@ import {css} from '@emotion/core';
 const Search = (props) => {
     return (
         <form onSubmit={props.result} css={stylingform}>
-         <input type="text" name="searchform" onChange={props.change}/>
+         <input type="text" name="searchform" onChange={props.change} placeholder={props.place}/>
          <button css={medium}>Search</button> 
         </form>
     );

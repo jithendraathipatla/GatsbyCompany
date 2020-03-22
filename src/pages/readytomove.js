@@ -97,7 +97,7 @@ const main = css`
   display:block;
   margin:20px 60px;
   @media(max-width:600px){
-    margin:20px;
+    margin:10px;
   }
 `
 

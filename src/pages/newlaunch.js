@@ -84,7 +84,7 @@ const Kewlaunch = () => {
             </div>
             <div>
             <div css={stickystyle}>
-            <InputSearchComponent result={handelformsubmit} change={handelInputChange}/>
+            <InputSearchComponent result={handelformsubmit} change={handelInputChange} place="Search for Newlaunch Properties in Bangalore"/>
             </div>
             <div css={grids}>
            {state.length === 0 ?  Loading() : displayingNewLaunch()}
@@ -128,7 +128,7 @@ const main = css`
   display:block;
   margin:20px 60px;
   @media(max-width:600px){
-  margin:20px;
+  margin:10px;
   }
 `
 
