@@ -64,6 +64,74 @@ import fontainebleau from "./images/newlaunch/fontaine-bleau.jpg"
 import dolcevita from "./images/newlaunch/dolce-vita.jpg"
 import brigadebricklane from "./images/newlaunch/brigade-bricklane.jpg"
 import northerndestiny from "./images/newlaunch/northerndestiny.jpg"
+import HorizonBanner from './images/newlaunch/century-horizon/banner.webp';
+import RainforestBanner from './images/newlaunch/shriram-rainforest/banner.jpg';
+import AlokyaBanner from './images/newlaunch/birla-alokya/banner.jpg';
+import twentyfourBanner from './images/newlaunch/godrej-24/banner.jpg';
+import AurigaBanner from './images/newlaunch/concorde-auriga/banner.webp';
+import TechCloulParkBanner from './images/newlaunch/prestige-tech-cloud-park/banner.jpg';
+import ElysianBanner from './images/newlaunch/prestige-elysian/banner.jpg';
+import EquinoxBanner from './images/newlaunch/provident-equinox/banner.jpg';
+import ParksideBanner from './images/newlaunch/brigade-parkside-east/banner.jpg';
+import NorthernlightsBanner from './images/newlaunch/bern-northern-lights/banner.jpg';
+import PalmBanner from './images/newlaunch/aditya-palm-grove/banner.jpg';
+import CapellaBanner from './images/newlaunch/provident-capella/banner.jpg';
+import EldoradoBanner from './images/newlaunch/brigade-eldorado/banner.jpg';
+import LakeGardensBanner from './images/newlaunch/godrej-lake-gardens/banner.webp';
+import SmilingBanner from './images/newlaunch/purva-smiling-willows/banner.jpg';
+import LibertyBanner from './images/newlaunch/shriram-liberty-square/banner.webp';
+import SammyspalmBanner from './images/newlaunch/sammys-palm-hills/banner.jpeg';
+import ParkWoodsBanner from './images/newlaunch/provident-parkWoods/banner.jpg';
+import VerendaBanner from './images/newlaunch/ozone-verdana/banner.jpg';
+import UtopiaBanner from './images/newlaunch/brigade-utopia/banner.jpg';
+import RoyalBanner from './images/newlaunch/sobha-royal-pavilion/banner.jpeg';
+import ZeniumBanner from './images/newlaunch/purva-zenium/banner.jpg';
+// import FlowingBanner from './images/newlaunch/capstone-life-flowing-tree/';
+import AuraBanner from './images/newlaunch/habitat-aura/banner.jpeg';
+import BreakFreeBanner from './images/newlaunch/shriram-codename-breakfree/banner.png';
+import SunBanner from './images/newlaunch/assetz-sun-and-sanctum/banner.gif';
+import NucleuBanner from './images/newlaunch/ajmera-nucleus/banner.jpg';
+import BeverlyBanner from './images/newlaunch/sammys-beverly-hills/banner.jpg';
+import OzonewfBanner from './images/newlaunch/ozone-wf48/banner.jpg';
+import godrejaquaBanner from './images/newlaunch/godrej-aqua/banner.jpg';
+import EllegenzaBanner from './images/newlaunch/nambiar-ellegenza/banner.webp'
+import SereneBanner from './images/newlaunch/salarpuria-sattva-serene-life/banner.webp';
+import LuxepolisBanner from './images/newlaunch/concorde-luxepolis/banner.webp';
+import WillowBanner from './images/newlaunch/prestige-willow-tree/banner.png';
+import LorenzaBanner from './images/newlaunch/casagrand-lorenza/banner.png';
+import CentralBanner from './images/newlaunch/provident-central-park/banner.png';
+import DreamBanner from './images/newlaunch/sobha-dream-gardens/banner.jpg';
+import SonaBanner from './images/newlaunch/sona-vistaas/banner.jpg';
+import GodrejReserveBanner from './images/newlaunch/godrej-reserve/banner.jpeg'
+import IndraprasthaBanner from './images/newlaunch/sowparnika-indraprastha/banner.jpg';
+import FlamencoBanner from './images/newlaunch/sowparnika-flamenco/banner.jpg';
+import BotaniqueBanner from './images/newlaunch/prestige-botanique/banner.jpg';
+import MysticBanner from './images/newlaunch/nvt-mystic/banner.jpeg';
+import ExoticBanner from './images/newlaunch/salarpuria-sattva-exotic/banner.webp';
+import dilchatahaiBanner from './images/newlaunch/shriram-codename-dil-chahta-hai/banner.jpg';
+import NeoraBanner from './images/newlaunch/provident-neora/banner.jpg';
+import GreensBanner from './images/newlaunch/century-greens/banner.gif';
+import brigadewoodsBanner from './images/newlaunch/brigade-woods/banner.jpg';
+import EarthBanner from './images/newlaunch/shriram-earth/banner.jpg';
+import EvitaBanner from './images/newlaunch/hiranandani-evita/banner.jpg';
+import OrchardsBanner from './images/newlaunch/valmark-orchards/banner.webp';
+import upavanBanner from './images/newlaunch/rohan-upavan/banner.jpg';
+import VishnaviBanner from './images/newlaunch/vaishnavi-serene/banner.jpg';
+import OasisBanner from './images/newlaunch/arvind-oasis/banner.webp';
+import CarmelBanner from './images/newlaunch/incor-carmel-heights/banner.jpg';
+import HillCrestBanner from './images/newlaunch/concorde-hillcrest/banner.jpg';
+import NorthernDestinygBanner from './images/newlaunch/provident-northern/banner.jpg';
+import CodenameBanner from './images/newlaunch/shriram-codename/banner.jpg';
+import BuenaBanner from './images/newlaunch/brigade-buena-vista/banner.webp';
+import MarqBanner from './images/newlaunch/assetz-marq-2.0/banner.jpg';
+import jindalcityBanner from './images/newlaunch/prestige-jindal-city/banner.jpg';
+import parksquareBanner from './images/newlaunch/provident-parkWoods/banner.jpg';
+import FontaineBanner from './images/newlaunch/prestige-fontaine-bleau/banner.jpg';
+// import dolcevitaBanner from './images/newlaunch/prestige-dolce-vita/';
+import BricklaneBanner from './images/newlaunch/brigade-bricklane/banner.jpg';
+
+
+
 export default [
   {
     name: "Century Horizon",
@@ -88,7 +156,7 @@ export default [
     unitvarients: "2,3,4 BHK",
     possession: "2024",
     startingPrice: "Rs. 92 Lackhs Onwards",
-    mainBanner: "ny",
+    mainBanner: HorizonBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3530216138424!2d77.59034581482308!3d13.076798890786884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1996476d922b%3A0xb914122fb1e0f55a!2sCentury%20Horizon!5e0!3m2!1sen!2sin!4v1574831880145!5m2!1sen!2sin",
   },
@@ -111,7 +179,7 @@ export default [
     unitvarients: "3,4 BHK",
     possession: "Aug 2020",
     startingPrice: "Rs. 46 Lackhs Onwards",
-    mainBanner: "ny",
+    mainBanner: RainforestBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248671.82538163147!2d77.51429324685833!3d13.13100287107757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6df894d9b2ea840!2sShriram%20Properties!5e0!3m2!1sen!2sin!4v1574346024360!5m2!1sen!2sin",
   },
@@ -142,7 +210,7 @@ export default [
     unitvarients: "3,4 BHK",
     possession: "Aug 2023",
     startingPrice: "Rs. 1.19 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: AlokyaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7199657707556!2d77.78678791413535!3d12.989754417995913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f93cea6df95%3A0xbab9eebc56a3729c!2sBirla%20Alokya%20Whitefield!5e0!3m2!1sen!2sin!4v1574345512606!5m2!1sen!2sin",
   },
@@ -173,7 +241,7 @@ export default [
     unitvarients: "1,2,3 BHK",
     possession: "Dec 2022",
     startingPrice: "Rs. 33.9 Lakhs Onwards",
-    mainBanner: "ny",
+    mainBanner: twentyfourBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.183500998767!2d77.7658778141345!3d12.895919220025235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d90f5cf91d1%3A0xe069d198ca5d2dfa!2sGodrej%2024%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1574345450172!5m2!1sen!2sin",
   },
@@ -210,7 +278,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "Dec 2023",
     startingPrice: "Rs. 45 Lakhs Onwards",
-    mainBanner: "ny",
+    mainBanner: AurigaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.094390386258!2d77.72143721413576!3d13.029660817128617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1037f4ecfb4b%3A0xe7e06043fc59c9f2!2sConcorde%20Auriga!5e0!3m2!1sen!2sin!4v1574345414509!5m2!1sen!2sin",
   },
@@ -229,7 +297,7 @@ export default [
     unitvarients: "2500 sqft office Spaces",
     possession: "Dec 2023",
     startingPrice: "Rs. 1.83 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: TechCloulParkBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.506657793397!2d77.64274111413735!3d13.193476013542126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1ff6d957753f%3A0x15afa49e997e8e27!2sPrestige%20Tech%20Cloud%20Park%20Devanahalli!5e0!3m2!1sen!2sin!4v1574345382758!5m2!1sen!2sin",
   },
@@ -258,7 +326,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "Dec 2022",
     startingPrice: "Rs. 86 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: ElysianBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5357906828262!2d77.59181381413421!3d12.873231620513891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6acdb01a2ea5%3A0x3e88f1248820181!2sPrestige%20Elysian!5e0!3m2!1sen!2sin!4v1574345349586!5m2!1sen!2sin",
   },
@@ -283,7 +351,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "sept 2022",
     startingPrice: "Rs. 43 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: EquinoxBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.322268551463!2d77.46655371413436!3d12.886987220217797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae397ce6a72391%3A0x515ead2cb39549c5!2sProvident%20Equinox!5e0!3m2!1sen!2sin!4v1574345302237!5m2!1sen!2sin",
   },
@@ -309,7 +377,7 @@ export default [
     unitvarients: "1,2 BHK",
     possession: "Dec 2020",
     startingPrice: "Rs. 48 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner:ParksideBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.08851537719!2d77.69984781413449!3d12.90202961989356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae12dfb4637353%3A0xf0679ce41da0438f!2sParkside%20East%20By%20Brigade!5e0!3m2!1sen!2sin!4v1574345268443!5m2!1sen!2sin",
   },
@@ -355,7 +423,7 @@ export default [
     unitvarients: "1,1.5,2 BHK",
     possession: "2022",
     startingPrice: "Rs. 32.8 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: NorthernlightsBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0505434807205!2d77.60637561413641!3d13.095983315681675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1942fa4bfe63%3A0xb36db70423f2b9a8!2sBren%20Northern%20Lights%20Marketing%20Office!5e0!3m2!1sen!2sin!4v1574345236789!5m2!1sen!2sin",
   },
@@ -385,7 +453,7 @@ export default [
     unitvarients: "817-2400 sq.ft",
     possession: "Dec 2019",
     startingPrice: "Rs. 39 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: PalmBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.416849286955!2d77.72634031413803!3d13.261870912032185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e3ddb7bcc5cb%3A0x63c7ae0865e916ba!2sAditya%20Palm%20Grove!5e0!3m2!1sen!2sin!4v1574345192069!5m2!1sen!2sin",
   },
@@ -414,7 +482,7 @@ export default [
     unitvarients: "pods, 1,2,3 BHK",
     possession: "sept 2022",
     startingPrice: "Rs. 25.99 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: CapellaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6741037409297!2d77.80382671413534!3d12.99268411793237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f426171efe5%3A0x7c46453cb4fe95be!2sProvident%20Capella%20-%20Flats%20for%20Sale%20in%20Whitefield%20%7C%201%2C%202%20%26%203%20BHK%20Flats!5e0!3m2!1sen!2sin!4v1574345161384!5m2!1sen!2sin",
   },
@@ -443,7 +511,7 @@ export default [
     unitvarients: "1,2,3 Bhk",
     possession: "2023",
     startingPrice: "Rs. 34.2 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: EldoradoBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.2866728081826!2d77.68225181413688!3d13.144308714623019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1bb6cc56313f%3A0x87ed97987f097aff!2sBrigade%20El%20Dorado!5e0!3m2!1sen!2sin!4v1574345128060!5m2!1sen!2sin",
   },
@@ -479,7 +547,7 @@ export default [
     unitvarients: "1,2,3 Bhk",
     possession: "Dec 2022",
     startingPrice: "Rs. 64 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: LakeGardensBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.939672587617!2d77.66583671413461!3d12.911598919687165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13a9af40e4f1%3A0x8347e9573a85f318!2sGodrej%20Lake%20Gardens!5e0!3m2!1sen!2sin!4v1574345093887!5m2!1sen!2sin",
   },
@@ -504,7 +572,7 @@ export default [
     unitvarients: "3,4 BHK",
     possession: "Dec 2021",
     startingPrice: "Rs. 2.85 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: SmilingBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.931496765674!2d77.60669951413398!3d12.84770102106262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b4ac13b7621%3A0x5e32f1ea47b3e90b!2sPurva%20Smiling%20Willows!5e0!3m2!1sen!2sin!4v1574345062065!5m2!1sen!2sin",
   },
@@ -529,7 +597,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2022",
     startingPrice: "Rs. 46.2 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: LibertyBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.172750831472!2d77.70080811413388!3d12.8321110213973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6db851793f4f%3A0x3b1e687c008d8e5c!2sShriram%20Liberty%20Square!5e0!3m2!1sen!2sin!4v1574345025827!5m2!1sen!2sin",
   },
@@ -553,7 +621,7 @@ export default [
     unitvarients: "Variety Plots",
     possession: "2021",
     startingPrice: "Rs. 25 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: SammyspalmBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62139.847168248416!2d77.66826450689865!3d13.241598513774294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1d7e5be61355%3A0x4d0ebbef9dd94431!2sSammy&#39;s%20palm%20hills!5e0!3m2!1sen!2sin!4v1584612383628!5m2!1sen!2sin",
   },
@@ -584,7 +652,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "Dec 2021",
     startingPrice: "Rs. 50 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: ParkWoodsBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9526397482077!2d77.61764381413523!3d12.974881018318515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16844534b9b5%3A0x9c86d18c29b08afa!2sProvident%20Housing%20Limited!5e0!3m2!1sen!2sin!4v1574344961334!5m2!1sen!2sin",
   },
@@ -616,7 +684,7 @@ export default [
     unitvarients: "1200-1500 Sq.ft",
     possession: "2019",
     startingPrice: "Rs. 52 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: VerendaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.319867678522!2d77.63300121413751!3d13.205223413283287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f92c475ea6f%3A0x4f3a2ed3df174b51!2sOzone%20Verdana!5e0!3m2!1sen!2sin!4v1574344929081!5m2!1sen!2sin",
   },
@@ -660,7 +728,7 @@ export default [
     unitvarients: "Studio,1,2,3 BHK",
     possession: "2024",
     startingPrice: "Rs. 39 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: UtopiaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.58344629908!2d77.7417166141348!3d12.934472919193173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f506dd78051%3A0x26cd74ce2e13baca!2sBrigade%20Cornerstone%20Utopia!5e0!3m2!1sen!2sin!4v1574344893945!5m2!1sen!2sin",
   },
@@ -695,7 +763,7 @@ export default [
     unitvarients: "2,3,3.5,4 BHK",
     possession: "2023",
     startingPrice: "Rs. 1.04 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: RoyalBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.166714159231!2d77.69947231413452!3d12.896999320001987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13da5eb85aa5%3A0xbe49ec77bd1e735d!2sSobha%20Royal%20Pavilion!5e0!3m2!1sen!2sin!4v1574344837925!5m2!1sen!2sin",
   },
@@ -726,7 +794,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2022",
     startingPrice: "Rs. 82 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: ZeniumBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.2583397741814!2d77.63673701413687!3d13.146097814583788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae198832e8b5df%3A0xe35302a5286768d2!2sPurva%20Zenium!5e0!3m2!1sen!2sin!4v1574344797313!5m2!1sen!2sin",
   },
@@ -753,7 +821,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2023",
     startingPrice: "PRICE ON REQUEST",
-    mainBanner: "ny",
+    mainBanner: "FlowingBanner",
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.975162045777!2d77.62697381413518!3d12.973440418349758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae18681c780863%3A0xcb81fb3a36c7f2c4!2sCapstone%20Life%20Flowing%20Tree!5e0!3m2!1sen!2sin!4v1574344638734!5m2!1sen!2sin",
   },
@@ -790,7 +858,7 @@ export default [
     unitvarients: "3 BHK",
     possession: "2022",
     startingPrice: "Rs. 1.02 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: AuraBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.3875227889494!2d77.59908781413432!3d12.882784920308188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae152ea45c29ff%3A0xff3afcdfdc332ea5!2sHabitat%20Aura!5e0!3m2!1sen!2sin!4v1574344560977!5m2!1sen!2sin",
   },
@@ -815,7 +883,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2022",
     startingPrice: "Rs. 46.2 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner:BreakFreeBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.168865813498!2d77.70061481413389!3d12.832362221391895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d1aa9f0ccd5%3A0xb3634d648c177c5a!2sShriram%20Codename%20Breakfree!5e0!3m2!1sen!2sin!4v1574344525564!5m2!1sen!2sin",
   },
@@ -844,7 +912,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2023",
     startingPrice: "Rs. 80 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: SunBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2217983471924!2d77.70353531413565!3d13.02154301730527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11497ecf6bf9%3A0x8e1344a990a20e4e!2sAssetz%20Sun%20%26%20Sanctum!5e0!3m2!1sen!2sin!4v1574344492741!5m2!1sen!2sin",
   },
@@ -871,7 +939,7 @@ export default [
     unitvarients: "1,2,3 BHK",
     possession: "2022",
     startingPrice: "Rs. 37 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: NucleuBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.8982588333115!2d77.677528414134!3d12.84984742101657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6da27044a297%3A0x254cffa50290dc30!2sAjmera%20Nucleus%20Apartments!5e0!3m2!1sen!2sin!4v1574344425634!5m2!1sen!2sin",
   },
@@ -894,7 +962,7 @@ export default [
     unitvarients: "N.A",
     possession: "2020",
     startingPrice: "Rs. 1.5 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: BeverlyBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15552.042425528458!2d77.58910641681467!3d12.971172963963033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1679b8c1b597%3A0xd62b71cea7a88469!2sSammy&#39;s%20Beverlyhills%20%7C!5e0!3m2!1sen!2sin!4v1574344393430!5m2!1sen!2sin",
   },
@@ -921,7 +989,7 @@ export default [
     unitvarients: "2,2.5,3 BHK",
     possession: "Dec 2022",
     startingPrice: "Rs. 1.07 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: OzonewfBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6304723912112!2d77.6926435141355!3d12.995470717871834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11afae8fa401%3A0x902d6ab579500d1!2sOzone%20WF48!5e0!3m2!1sen!2sin!4v1574344355818!5m2!1sen!2sin",
   },
@@ -957,7 +1025,7 @@ export default [
     unitvarients: "3,4 BHK",
     possession: "2022",
     startingPrice: "Rs. 1.83 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: godrejaquaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.2551152281767!2d77.63573431413691!3d13.146301414579266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae196489877877%3A0x1af8035c1b043535!2sGodrej%20Aqua!5e0!3m2!1sen!2sin!4v1574344315247!5m2!1sen!2sin",
   },
@@ -984,7 +1052,7 @@ export default [
     unitvarients: "N.A",
     possession: "Dec 2019",
     startingPrice: "Rs. 39 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: EllegenzaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0211348379694!2d77.72820191413392!3d12.841910721187025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d71e2730365%3A0x34c3f0269c053f82!2sEllegenza%20by%20Nambiar%20Builders!5e0!3m2!1sen!2sin!4v1574344284147!5m2!1sen!2sin",
   },
@@ -1007,7 +1075,7 @@ export default [
     unitvarients: "200 - 4000 Sq.ft",
     possession: "2019",
     startingPrice: "Rs. 54 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: SereneBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.557808391996!2d77.6568929141373!3d13.190257313613065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1c28e0114369%3A0x5479ed68e9a61b33!2sSalarpuria%20Sattva%20Serene%20Life!5e0!3m2!1sen!2sin!4v1574344234716!5m2!1sen!2sin",
   },
@@ -1034,7 +1102,7 @@ export default [
     unitvarients: "3,4 BHK",
     possession: "Mar 2022",
     startingPrice: "Rs. 3.13 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner: LuxepolisBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2334593814694!2d77.56545501413507!3d12.956907618707872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15f9873e1a5d%3A0xf3b86c30c48bcd3a!2sConcorde%20Luxepolis!5e0!3m2!1sen!2sin!4v1574344200980!5m2!1sen!2sin",
   },
@@ -1066,7 +1134,7 @@ export default [
     unitvarients: "1,2,3,3.5 BHK",
     possession: "2022",
     startingPrice: "Rs. 46 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: WillowBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9882118774794!2d77.63097501413644!3d13.099933215595328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19fe0021fae3%3A0xa32a514b79c59444!2sCasagrand%20Lorenza!5e0!3m2!1sen!2sin!4v1574344161068!5m2!1sen!2sin",
   },
@@ -1105,7 +1173,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "Dec 2021",
     startingPrice: "Rs. 53 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: LorenzaBanner,
     map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.988294340281!2d77.63097501482333!3d13.099927990771798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19fe0021fae3%3A0xa32a514b79c59444!2sCasagrand%20Lorenza!5e0!3m2!1sen!2sin!4v1584630539054!5m2!1sen!2sin"
   },
   {
@@ -1135,7 +1203,7 @@ export default [
     unitvarients: "1,2,3 BHK",
     possession: "Dec 2021",
     startingPrice: "Rs. 33 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: CentralBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.684475997593!2d77.53845601413417!3d12.863644420720032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae199d2dedfd49%3A0xd294280043c80afd!2sProvident%20Park%20Square!5e0!3m2!1sen!2sin!4v1574344113915!5m2!1sen!2sin",
   },
@@ -1179,7 +1247,7 @@ export default [
     unitvarients: "studio,1,2,3 BHK",
     possession: "2024",
     startingPrice: "Rs. 33 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: UtopiaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.58344629908!2d77.7417166141348!3d12.934472919193173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f506dd78051%3A0x26cd74ce2e13baca!2sBrigade%20Cornerstone%20Utopia!5e0!3m2!1sen!2sin!4v1574344048679!5m2!1sen!2sin",
   },
@@ -1206,7 +1274,7 @@ export default [
     unitvarients: "1,2 BHK",
     possession: "2022",
     startingPrice: "Rs. 45 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: DreamBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0131363195264!2d77.63946861413639!3d13.098353915629849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19261265aa95%3A0xcc6de8ac0fc6561f!2sSobha%20Dream%20Gardens!5e0!3m2!1sen!2sin!4v1574344014631!5m2!1sen!2sin",
   },
@@ -1235,7 +1303,7 @@ export default [
     unitvarients: "1,2,3 BHk",
     possession: "2024",
     startingPrice: "Rs. 31 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: SonaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.4132535070466!2d77.61739051413434!3d12.881127520343892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16773e7dc413%3A0x930f861908f875c4!2sSona%20Vistaas!5e0!3m2!1sen!2sin!4v1574343977517!5m2!1sen!2sin",
   },
@@ -1260,7 +1328,7 @@ export default [
     unitvarients: "1200 - 3200 Sq.ft",
     possession: "Dec 2020",
     startingPrice: "Rs. 45 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: GodrejReserveBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.3066416984066!2d77.66744641413817!3d13.268768111879536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e328b2de3af3%3A0xb74e97aeacfe18a6!2sGodrej%20Reserve%20Devanahalli!5e0!3m2!1sen!2sin!4v1574343943751!5m2!1sen!2sin",
   },
@@ -1287,7 +1355,7 @@ export default [
     unitvarients: "1,2,3 BHk",
     possession: "Jul 2021",
     startingPrice: "Rs. 15 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: IndraprasthaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7705639134874!2d77.81991331413532!3d12.986521418066074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0fc23013ef39%3A0x17d516f31052e876!2sSowparnika%20Indraprastha!5e0!3m2!1sen!2sin!4v1574343907095!5m2!1sen!2sin",
   },
@@ -1326,7 +1394,7 @@ export default [
     unitvarients: "1,2,3 BHk",
     possession: "Jul 2021",
     startingPrice: "Rs. 23 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: FlamencoBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.81808842765!2d77.78289641413409!3d12.855023120905367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae72e47f1dc10f%3A0x608aae5a62390ecd!2sSowparnika%20Flamenco!5e0!3m2!1sen!2sin!4v1574343874173!5m2!1sen!2sin",
   },
@@ -1356,7 +1424,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "Dec 2019",
     startingPrice: "Rs. 39 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: BotaniqueBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2735931848188!2d77.57796491413502!3d12.95433691876352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15e8bb736e65%3A0xb451cc1a6240f293!2sPrestige%20Botanique!5e0!3m2!1sen!2sin!4v1574343840309!5m2!1sen!2sin",
   },
@@ -1383,7 +1451,7 @@ export default [
     unitvarients: "3,4 BHk",
     possession: "2021",
     startingPrice: "Rs. 1.04 crore Onwards",
-    mainBanner: "ny",
+    mainBanner: MysticBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.785869471747!2d77.77706551413348!3d12.792406822247742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae7123eb1b8f9f%3A0xdb820ba0d4ddb794!2sNVT%20Mystic%20Garden%20%7C%20Luxury%20Villas%20in%20Sarjapur%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1574343775150!5m2!1sen!2sin",
   },
@@ -1413,7 +1481,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "Dec 2023",
     startingPrice: "Rs. 73.7 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: ExoticBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.645423914467!2d77.61735431413666!3d13.121634515120219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19eacaea1add%3A0xd8419e6bbd8ec1e4!2sSalarpuria%20Sattva%20Exotic!5e0!3m2!1sen!2sin!4v1574343738298!5m2!1sen!2sin",
   },
@@ -1432,7 +1500,7 @@ export default [
     unitvarients: "2 BHK",
     possession: "Dec 2019",
     startingPrice: "Rs. 56 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: dilchatahaiBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.252354055158!2d77.61730791413626!3d13.083186715961473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19a64515bdc1%3A0xfd003349d36de839!2sProvident%20Neora!5e0!3m2!1sen!2sin!4v1574343710955!5m2!1sen!2sin",
   },
@@ -1451,7 +1519,7 @@ export default [
     unitvarients: "2 BHk",
     possession: "Dec 2021",
     startingPrice: "Rs. 68 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: NeoraBanner,
     map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.252354055158!2d77.61730791413626!3d13.083186715961473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19a64515bdc1%3A0xfd003349d36de839!2sProvident%20Neora!5e0!3m2!1sen!2sin!4v1584630980659!5m2!1sen!2sin"
   },
   {
@@ -1472,7 +1540,7 @@ export default [
     unitvarients: "2,2.5,3 BHk ",
     possession: "2019",
     startingPrice: "Rs. 31 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: GreensBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.6223768866857!2d77.60911611413792!3d13.248998812316914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e1c616a648df%3A0xdd17dfd22a592a94!2sCentury%20Greens!5e0!3m2!1sen!2sin!4v1574343680285!5m2!1sen!2sin",
   },
@@ -1503,7 +1571,7 @@ export default [
     unitvarients: "1,2,3 BHK",
     possession: "2021",
     startingPrice: "Rs. 1.13 Crore Onwards",
-    mainBanner: "ny",
+    mainBanner:brigadewoodsBanner ,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.815157640007!2d77.74160381413532!3d12.983671418127892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1184593bba4d%3A0xfe83158560a9b95c!2sBrigade%20Woods!5e0!3m2!1sen!2sin!4v1574343633919!5m2!1sen!2sin",
   },
@@ -1526,7 +1594,7 @@ export default [
     unitvarients: "N.A",
     possession: "Oct 2021",
     startingPrice: "Rs. 19.8 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: EarthBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.3539332043347!2d77.38049581413433!3d12.884948220261673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae39fa0c92863b%3A0xa496d8f89fc8ae3!2sShriram%20Earth%20-%20Off%20Mysore%20Road!5e0!3m2!1sen!2sin!4v1574343598748!5m2!1sen!2sin",
   },
@@ -1555,7 +1623,7 @@ export default [
     unitvarients: "2,2.5 & 3 BHk",
     possession: "2022",
     startingPrice: "Rs. 83.7 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: EvitaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5116534790177!2d77.60782521413428!3d12.874787320480348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b4bb491875f%3A0xc7715de364e5ef11!2sHiranandani%20Evita!5e0!3m2!1sen!2sin!4v1574343570742!5m2!1sen!2sin",
   },
@@ -1582,7 +1650,7 @@ export default [
     unitvarients: "1200 - 2400 sq.ft",
     possession: "2020",
     startingPrice: "Rs. 48 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner:OrchardsBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5758821712534!2d77.58385871413427!3d12.870647220569408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6ac98ad7fc07%3A0x36ff663119d450cb!2sValmark%20Orchard%20Square!5e0!3m2!1sen!2sin!4v1574343529007!5m2!1sen!2sin",
   },
@@ -1617,7 +1685,7 @@ export default [
     unitvarients: "1,1.5,2 & 3 BHk",
     possession: "2021",
     startingPrice: "Rs. 34 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner:upavanBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6880790454684!2d77.65996191413598!3d13.055515816565403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae114a5a8af987%3A0xde2110bf21a6ed98!2sRohan%20Upavan!5e0!3m2!1sen!2sin!4v1574343474691!5m2!1sen!2sin",
   },
@@ -1647,7 +1715,7 @@ export default [
     unitvarients: "1,2,3 BHk",
     possession: "2021",
     startingPrice: "Rs. 36 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: VishnaviBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.6146866408267!2d77.56508911413663!3d13.123578715077645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19ffeaecf4f7%3A0xc75558178aef3c1f!2sVaishnavi%20Serene%20Yelahanka!5e0!3m2!1sen!2sin!4v1574343436855!5m2!1sen!2sin",
   },
@@ -1675,7 +1743,7 @@ export default [
     unitvarients: "2,2.5 & 3 BHk",
     possession: "Mar 2021",
     startingPrice: "Rs. 61 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: OasisBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8278683983685!2d77.50031931413595!3d13.046626216759195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d782a63faad%3A0x91d188fc7d2b603!2sArvind%20Oasis!5e0!3m2!1sen!2sin!4v1574343389085!5m2!1sen!2sin",
   },
@@ -1704,7 +1772,7 @@ export default [
     unitvarients: "2,3 & 4 BHk",
     possession: "Oct 2022",
     startingPrice: "Rs. 99.9 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: CarmelBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1713440493427!2d77.7455968141351!3d12.960885318621736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d3c96f3be75%3A0xed7fcb9b69076fb2!2sIncor%20Carmel%20Heights!5e0!3m2!1sen!2sin!4v1574343335997!5m2!1sen!2sin",
   },
@@ -1733,7 +1801,7 @@ export default [
     unitvarients: "1200 - 4000 Sq.ft",
     possession: "2018",
     startingPrice: "Rs. 14.5 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: HillCrestBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.207841029826!2d77.76245491414063!3d13.522832906203082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1f39b12332a79%3A0x51ffde830a4d4f25!2sConcorde%20Hillcrest!5e0!3m2!1sen!2sin!4v1574343293446!5m2!1sen!2sin",
   },
@@ -1764,7 +1832,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "Dec 2021",
     startingPrice: "Rs. 61 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: NorthernDestinygBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62183.138570980154!2d77.59856973056392!3d13.070886051271183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19e62aae9ca3%3A0x2af975535a8f4159!2sProvident%20Northern%20Destiny!5e0!3m2!1sen!2sin!4v1574343242271!5m2!1sen!2sin",
   },
@@ -1793,7 +1861,7 @@ export default [
     unitvarients: "1,2,3 BHk",
     possession: "Oct 2021",
     startingPrice: "Rs. 40 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: CodenameBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.168865813498!2d77.70061481413389!3d12.832362221391895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d1aa9f0ccd5%3A0xb3634d648c177c5a!2sShriram%20Codename%20Breakfree!5e0!3m2!1sen!2sin!4v1574343198672!5m2!1sen!2sin",
   },
@@ -1820,7 +1888,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "2019 BHK",
     startingPrice: "Rs. 46 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: BuenaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5347325646017!2d77.73827511413606!3d13.065260716352844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1aca30290db7%3A0xe7b50de6df4a35e7!2sBrigade%20Buena%20Vista!5e0!3m2!1sen!2sin!4v1574343129164!5m2!1sen!2sin",
   },
@@ -1847,7 +1915,7 @@ export default [
     unitvarients: "3,4 BHk",
     possession: "Jan 2022",
     startingPrice: "Rs. 90 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: MarqBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.176615417134!2d77.75979881413573!3d13.024422417242617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f2e4cd147c9%3A0x9ef127860c74ba1e!2sAssetz%20Marq!5e0!3m2!1sen!2sin!4v1574343098784!5m2!1sen!2sin",
   },
@@ -1874,7 +1942,7 @@ export default [
     unitvarients: "1,2,3,4 BHK",
     possession: "2021 (P1)",
     startingPrice: "Rs. 48 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: jindalcityBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7169468833604!2d77.48606931413603!3d13.053680516605436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23ada9960cd5%3A0xa794ca649ee35daf!2sPrestige%20Jindal%20City!5e0!3m2!1sen!2sin!4v1574343055871!5m2!1sen!2sin",
   },
@@ -1908,7 +1976,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "2021",
     startingPrice: "Rs. 95 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: parksquareBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249008.1480835564!2d77.48072373746982!3d12.79458294632871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6bda3da873bb%3A0x7ef4f722332e2d11!2sPRESTIGE%20PARK%20SQUARE!5e0!3m2!1sen!2sin!4v1574343002235!5m2!1sen!2sin",
   },
@@ -1937,7 +2005,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "2021",
     startingPrice: "Rs. 83 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: FontaineBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9490702871735!2d77.74051741413527!3d12.975109318313518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11ff99828ba3%3A0xc975735a9e91bfbe!2sPRESTIGE%20FONTAINE%20BLEAU!5e0!3m2!1sen!2sin!4v1574342806589!5m2!1sen!2sin",
   },
@@ -1967,7 +2035,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "2021",
     startingPrice: "Rs. 94 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner:"dolcevitaBanner",
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.96872735442!2d77.7402523141352!3d12.973852018340834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae115b9966adff%3A0xbbc8e762a3036b41!2sPrestige%20Dolce%20Vita!5e0!3m2!1sen!2sin!4v1574342762803!5m2!1sen!2sin",
   },
@@ -1994,7 +2062,7 @@ export default [
     unitvarients: "1,2, BHk",
     possession: "2021",
     startingPrice: "Rs. 48 Lakh Onwards",
-    mainBanner: "ny",
+    mainBanner: BricklaneBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9810293532732!2d77.62986481482332!3d13.100388290771427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae199f8197d1e5%3A0xbd0df0ce18b8f1db!2sBrigade%20Bricklane!5e0!3m2!1sen!2sin!4v1574342674233!5m2!1sen!2sin",
   },
