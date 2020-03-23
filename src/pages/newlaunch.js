@@ -42,7 +42,7 @@ const Kewlaunch = () => {
             return(
                 <div key={i} className="card">
                 <div className="card-image image-container">
-                <Link to={`/upcoming/${item.redirect}`}><img src={item.image_icon} alt="Placeholder image"/></Link>
+                <Link to={`/newlaunch/${item.redirect}`}><img src={item.image_icon} alt="Placeholder image"/></Link>
               </div>
               <div className="card-content in-upcoming">
                <span>{item.name}</span>

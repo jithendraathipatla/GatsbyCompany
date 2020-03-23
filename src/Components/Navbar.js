@@ -62,7 +62,7 @@ const navbar = css`
   left: 0;
   width: 100%;
   background: #fff;
-  z-index: 1;
+  z-index: 40;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
   background: white;
   a{
@@ -146,6 +146,4 @@ const nav_links = css`
       padding: 25px 0;
       }
   }
-  
-
 `;

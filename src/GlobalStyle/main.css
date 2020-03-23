@@ -358,3 +358,18 @@ hr{
     padding: 8px 20px 30px 20px;
   }
 }
+
+
+@media screen and (max-width: 360px){
+  .card img {
+    height: 200px;
+    width: 340px;
+}
+}
+
+@media screen and (max-width: 320px){
+ .card img {
+    height: 200px;
+    width: 300px;
+  }
+}

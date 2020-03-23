@@ -60,7 +60,7 @@ const PropertyAreas = () => {
     return (
         console.log(state),
         <div css={someimportant}>
-         <div css={position}>
+         <div css={positionaa}>
          <Title title="New Properties by Areas"/>
          <div css={secondimportant}>
          <span onClick={handelBangalore}>Bangalore</span>
@@ -104,7 +104,7 @@ const someimportant = css`
  }
 `
 
-const position = css`
+const positionaa = css`
 position: -webkit-sticky;
 align-self: flex-center;
 position: sticky;

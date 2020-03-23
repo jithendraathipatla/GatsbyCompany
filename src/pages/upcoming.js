@@ -94,6 +94,9 @@ white-space: nowrap;
 const main = css`
   display:block;
   margin:20px 60px;
+  @media(max-width:600px){
+    margin:10px;
+}
 `
 
 const grids = css`
