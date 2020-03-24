@@ -2345,7 +2345,7 @@ export default [
     filter_location:"mysore road",
      area: [
       { bed: "2 BHK", feet: "883" },
-      { bed: "3 BHK", feet: "1082 },
+      { bed: "3 BHK", feet: "1082" },
     ],
     price: [
       { bed: "2 BHK", feet: "883", money:"Rs. 45 Lacs" },
