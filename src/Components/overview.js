@@ -131,7 +131,8 @@ const overview_main = css`
     }
   }
   @media(max-width:600px){
-    display:block;
+    display: grid;
+    grid-template-columns: 3fr;
     margin-left: 10%;
     margin-right: 10%;
     padding:0px;
