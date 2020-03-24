@@ -86,7 +86,7 @@ import VerendaBanner from './images/newlaunch/ozone-verdana/banner.jpg';
 import UtopiaBanner from './images/newlaunch/brigade-utopia/banner.jpg';
 import RoyalBanner from './images/newlaunch/sobha-royal-pavilion/banner.jpeg';
 import ZeniumBanner from './images/newlaunch/purva-zenium/banner.jpg';
-// import FlowingBanner from './images/newlaunch/capstone-life-flowing-tree/';
+import FlowingBanner from './images/newlaunch/capstone-life-flowing-tree/banner.jpg';
 import AuraBanner from './images/newlaunch/habitat-aura/banner.jpeg';
 import BreakFreeBanner from './images/newlaunch/shriram-codename-breakfree/banner.png';
 import SunBanner from './images/newlaunch/assetz-sun-and-sanctum/banner.gif';
@@ -127,7 +127,7 @@ import MarqBanner from './images/newlaunch/assetz-marq-2.0/banner.jpg';
 import jindalcityBanner from './images/newlaunch/prestige-jindal-city/banner.jpg';
 import parksquareBanner from './images/newlaunch/provident-parkWoods/banner.jpg';
 import FontaineBanner from './images/newlaunch/prestige-fontaine-bleau/banner.jpg';
-// import dolcevitaBanner from './images/newlaunch/prestige-dolce-vita/';
+import dolcevitaBanner from './images/newlaunch/prestige-dolce-vita/banner.jpg';
 import BricklaneBanner from './images/newlaunch/brigade-bricklane/banner.jpg';
 
 
@@ -821,7 +821,7 @@ export default [
     unitvarients: "2,3 BHK",
     possession: "2023",
     startingPrice: "PRICE ON REQUEST",
-    mainBanner: "FlowingBanner",
+    mainBanner: FlowingBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.975162045777!2d77.62697381413518!3d12.973440418349758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae18681c780863%3A0xcb81fb3a36c7f2c4!2sCapstone%20Life%20Flowing%20Tree!5e0!3m2!1sen!2sin!4v1574344638734!5m2!1sen!2sin",
   },
@@ -2055,7 +2055,7 @@ export default [
     unitvarients: "2,3 BHk",
     possession: "2021",
     startingPrice: "Rs. 94 Lakh Onwards",
-    mainBanner:"dolcevitaBanner",
+    mainBanner:dolcevitaBanner,
     map:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.96872735442!2d77.7402523141352!3d12.973852018340834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae115b9966adff%3A0xbbc8e762a3036b41!2sPrestige%20Dolce%20Vita!5e0!3m2!1sen!2sin!4v1574342762803!5m2!1sen!2sin",
   },
