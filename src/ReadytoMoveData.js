@@ -2429,7 +2429,7 @@ export default [
       { bed: "3 BHK Duplex", feet: "5028" },
     ],
     price: [
-      { { bed: "3 BHK", feet: "1876", money:"Rs. 1.65 Core" },
+       { bed: "3 BHK", feet: "1876", money:"Rs. 1.65 Core" },
       { bed: "3.5 BHK", feet: "2260", money:"Rs. 1.99 Core" },
       { bed: "3 BHK Duplex", feet: "5028", money:"Rs. 4.60 Core" },
     ],
