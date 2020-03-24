@@ -2059,7 +2059,7 @@ export default [
       
     ],
     price: [
-      {  { bed: "3 BHK villa - 60 X 40", feet: "2850", money:"Rs. 2.49 Crore" },
+       { bed: "3 BHK villa - 60 X 40", feet: "2850", money:"Rs. 2.49 Crore" },
       { bed: "4 BHK villa - 60 X 40", feet: "3133", money:"Rs. 2.74 Crore" },
       { bed: "4 BHK villa - 50 X 80", feet: "4100", money:"Rs. 3.63 Crore" },
       { bed: "4 BHK villa - 60 X 70", feet: "4055", money:"Rs. 3.59 Crore" },
