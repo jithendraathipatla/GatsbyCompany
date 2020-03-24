@@ -3,6 +3,7 @@ import { css } from "@emotion/core"
 import { FaAlignRight } from "react-icons/fa"
 import Logo from "../images/logonew.png"
 import { Link } from "gatsby"
+import '../GlobalStyle/main.css'
 
 const Navbar = () => {
   const [state, setstate] = useState(false)
@@ -28,24 +29,24 @@ const Navbar = () => {
           </div>
           <ul css={state === true ? `nav_links show_nav`: nav_links}>
             <li onClick={closingNav}>
-              <Link to="/">Home</Link>
+              <Link to="/" activeClassName="activeabcd">Home</Link>
             </li>
             <li onClick={closingNav}>
-              <Link to="/upcoming">Upcoming</Link>
+              <Link to="/upcoming" activeClassName="activeabcd">Upcoming</Link>
             </li>
             <li onClick={closingNav}>
-              <Link to="/newlaunch">New Launch</Link>
+              <Link to="/newlaunch" activeClassName="activeabcd">New Launch</Link>
             </li>
             <li onClick={closingNav}>
-              <Link to="/readytomove">Ready To Move</Link>
+              <Link to="/readytomove" activeClassName="activeabcd">Ready To Move</Link>
             </li>
             <li css={notdisplaying}>
-              <Link to="/team" className="displaying-team">
+              <Link to="/team" className="displaying-team" activeClassName="activeabcd">
                 Team
               </Link>
             </li>
             <li onClick={closingNav}>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" activeClassName="activeabcd">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -56,6 +57,11 @@ const Navbar = () => {
 
 export default Navbar;
 
+const activeone = css`
+border-bottom:"2px solid";
+ color:"#8a4baf"; 
+ border-color:"#8a4baf"; 
+`
 const navbar = css`
   position: fixed !important;
   top: 0;

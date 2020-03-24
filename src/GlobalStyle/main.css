@@ -11,6 +11,12 @@ hr{
   border: 1px solid #eeee;
 }
 
+.activeabcd{
+  border-bottom-color: #8a4baf;
+  color: #8a4baf !important;
+  border-bottom: 2px solid;
+}
+
 .MuiDialog-paperWidthSm {
   max-width: 600px;
   width: 400px;

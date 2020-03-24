@@ -7,26 +7,46 @@ import {Link} from 'gatsby';
 const PropertyAreas = () => {
     const [state, setState] = useState(BangaloreData);
     const [city, setcity] = useState("Bangalore");
+    const [Bangalorecolor, setBangalorecolor] = useState("activeabcd")
+    const [chenniacolor, setchennia] = useState(null);
+    const [hydcolor, sethydcolor] = useState(null);
+    const [mucolor, setmucolor] = useState(null);
     useEffect(() => {
     }, [state]);
 
     const handelBangalore = () => {
-      setcity("Bangalore")
+      setcity("Bangalore");
+      setBangalorecolor("activeabcd");
+      setmucolor(null);
+      setchennia(null);
+      sethydcolor(null);
       setState(BangaloreData);
     }
 
     const handelChennai = () => {
       setcity("Chennai")
+      setBangalorecolor(null);
+      setmucolor(null);
+      setchennia("activeabcd");
+      sethydcolor(null);
       setState([])
     }
 
     const handelHyderabad = () => {
       setcity("Hyderabad")
+      setBangalorecolor(null);
+      setmucolor(null);
+      setchennia(null);
+      sethydcolor("activeabcd");
       setState([])
     }
 
     const handelMumbai = () => {
       setcity("Mumbai")
+      setBangalorecolor(null);
+      setmucolor("activeabcd");
+      setchennia(null);
+      sethydcolor(null);
       setState([])
     }
 
@@ -63,10 +83,10 @@ const PropertyAreas = () => {
          <div css={positionaa}>
          <Title title="New Properties by Areas"/>
          <div css={secondimportant}>
-         <span onClick={handelBangalore}>Bangalore</span>
-         <span onClick={handelChennai}>Chennai</span>
-         <span onClick={handelMumbai}>Mumbai</span>
-         <span onClick={handelHyderabad}>Hyderabad</span>
+         <span onClick={handelBangalore} className={Bangalorecolor}>Bangalore</span>
+         <span onClick={handelChennai} className={chenniacolor}>Chennai</span>
+         <span onClick={handelMumbai} className={mucolor}>Mumbai</span>
+         <span onClick={handelHyderabad} className={hydcolor}>Hyderabad</span>
          </div>
          </div>
          <div>
