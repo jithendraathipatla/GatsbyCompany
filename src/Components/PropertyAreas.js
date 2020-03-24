@@ -109,6 +109,11 @@ position: -webkit-sticky;
 align-self: flex-center;
 position: sticky;
 top:100px;
+span{
+  font-size: 1.1em;
+  font-weight: 500;
+
+}
 @media(max-width:600px){
   top: 81px;
   z-index: 100;

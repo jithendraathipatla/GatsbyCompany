@@ -136,6 +136,11 @@ const overview_main = css`
     margin-left: 10%;
     margin-right: 10%;
     padding:0px;
+    grid-gap:0px;
+    img: nth-child(odd){
+      background: cornsilk;
+    }
+   
   }
 `
 
@@ -144,7 +149,11 @@ const properly = css`
     border-radius: 5px;
     padding: 10px 20px;
   @media(max-width:600px){
-    margin-bottom:10px;
+    display:block;
+    border:1px solid #eeee;
+    :nth-child(odd){
+      background:#eeee;
+    }
   }
 `
 const headings = css`

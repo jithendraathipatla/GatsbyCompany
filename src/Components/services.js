@@ -11,7 +11,7 @@ const Services = () => {
     {
       icons: <FaRegHandshake />,
       title: "Appointment",
-      info: "We feel like our Customers are the most important assert in the whole universe. So, \"making our customers feel happ is wat makes us more Happy\"."
+      info: "We feel like our Customers are the most important assert in the whole universe. So, \"making our customers feel happy is what makes us more Happy\"."
     },
     {
       icons: <FaCarSide />,
@@ -102,7 +102,6 @@ const main= css`
   font-size:1.2rem;
   font-weight:500;
   display:block;
-  padding-left:20px;
 `;
 
 const sub= css`
