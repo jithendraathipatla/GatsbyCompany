@@ -37,7 +37,6 @@ const Kewlaunch = () => {
     }
 
     const displayingNewLaunch = () =>{
-        console.log(state);
         return (state.map((item,i)=>{
             return(
                 <div key={i} className="card">

@@ -40,6 +40,7 @@ const main = css`
  margin:30px;
  @media(max-width:600px){
      display:block;
+     margin:10px;
  }
 `
 
@@ -50,10 +51,12 @@ const form = css`
 const map = css`
   flex:8;
   padding-left:30px;
+  @media(max-width:600px){
+   padding-left:0px;
+}
 `
 
 const innerform = css`
  padding:20px;
  box-shadow:0px 0px 2px 3px rgba(0,0,0,0.2);
-
 `
